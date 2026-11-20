@@ -1,0 +1,53 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: tests never write player save
+PASS: Scarlet launches three real thermal projectiles before any damage
+PASS: Scarlet vents thirty heat and gains a timed heat discount without healing
+PASS: Scarlet skill collisions attribute actual damage to the skill and thermal type
+PASS: Scarlet heat buff expires and passive requires the stated temperature
+PASS: Raven launches a single penetrating rail without generic healing
+PASS: Raven skill genuinely crosses both aligned targets as electric damage
+PASS: Raven mark grants fifteen percent only to hand weapons against the marked target
+PASS: Raven passive activates after actual stationary time
+PASS: moving immediately removes Raven stationary benefit
+PASS: Raven target mark expires without permanently changing damage
+PASS: Frost can cast without a target and creates no hidden damage
+PASS: Frost grants thirty shield and vents twenty-five without instant generic healing
+PASS: Frost repairs exactly fifteen armor over five seconds
+PASS: Frost repair cannot continue beyond the declared duration
+PASS: Frost low-armor passive creates a bounded emergency shield
+PASS: repeated hits cannot refresh emergency shield during cooldown
+PASS: destroyed mechs cannot trigger a passive shield or cast repair
+PASS: active pilot timers and target identity survive JSON persistence
+PASS: personal tasks and higher-trust conversations honor their conditions
+PASS: personal task claims grant trust once and nodes grant one trust per completed event
+PASS: conversation can be replayed without farming repeated trust
+PASS: Scarlet second task progresses from actual heat vented
+PASS: final personal chapter requires real boss victories
+PASS: trust, task claims, metrics and read conversations survive JSON persistence
+PASS: pilot 0 ability, task and conversation screens build
+PASS: training pilot 0 uses the same real skill runtime
+PASS: pilot 1 ability, task and conversation screens build
+PASS: training pilot 1 uses the same real skill runtime
+PASS: pilot 2 ability, task and conversation screens build
+PASS: training pilot 2 uses the same real skill runtime
+PASS: certification uses a fresh pilot runtime and cannot leak story progress into the live roster
+PASS: pilot 0 can launch a real exploration route
+PASS: pilot 0 opens the actual cache event
+PASS: cache exploration perks grant only the declared bounty or research reward for pilot 0
+PASS: stale cache choice cannot duplicate a pilot exploration perk
+PASS: supply repair uses Frost's actual exploration specialty
+PASS: pilot 1 can launch a real exploration route
+PASS: pilot 1 opens the actual cache event
+PASS: cache exploration perks grant only the declared bounty or research reward for pilot 1
+PASS: stale cache choice cannot duplicate a pilot exploration perk
+PASS: supply repair uses Frost's actual exploration specialty
+PASS: pilot 2 can launch a real exploration route
+PASS: pilot 2 opens the actual cache event
+PASS: cache exploration perks grant only the declared bounty or research reward for pilot 2
+PASS: stale cache choice cannot duplicate a pilot exploration perk
+PASS: supply repair uses Frost's actual exploration specialty
+PASS: live personal task reward is paid exactly once
+PASS: actual disk reload preserves personal rewards, active effects and full Frost shield
+PASS: completed personal rewards remain protected after reload
+CHECKS: 50 passed, 0 failed

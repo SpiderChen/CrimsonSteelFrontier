@@ -1,0 +1,5 @@
+CLOUD BROWSER PASS: two independent browsers register/login, transfer a full bag and pilot progress, preserve a real upgrade and reject stale overwrite
+CLOUD BROWSER PASS: server-calculated 48-hour/36-effective-hour rewards ignore client Date, create real regional gear/research/samples, preserve rares in overflow and cannot be claimed twice across devices
+CLOUD BROWSER PASS: a lost claim survives session expiry and reload; the actual original-account login controls restore authentication while keeping its request ID
+CLOUD BROWSER PASS: actual archive controls immediately synchronize both source switches and retain server-accounted old-source income without an extra manual upload
+CLOUD BROWSER PASS: a committed claim with a lost network response persists its request ID, blocks conflicting actions, recovers the same receipt without extra payout and survives reload with credentials separate from game data

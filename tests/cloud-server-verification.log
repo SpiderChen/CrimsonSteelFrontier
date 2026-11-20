@@ -1,0 +1,30 @@
+test_real_http_login_save_claim_conflict_and_static_isolation (server.test_server.HttpTests) ... 127.0.0.1 - - [10/Nov/2026 09:27:05] "GET /api/state HTTP/1.1" 401 -
+127.0.0.1 - - [10/Nov/2026 09:27:06] "POST /api/register HTTP/1.1" 200 -
+127.0.0.1 - - [10/Nov/2026 09:27:06] "PUT /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [10/Nov/2026 09:27:06] "POST /api/claim HTTP/1.1" 200 -
+127.0.0.1 - - [10/Nov/2026 09:27:06] "PUT /api/state HTTP/1.1" 409 -
+127.0.0.1 - - [10/Nov/2026 09:27:06] "PUT /api/state HTTP/1.1" 400 -
+127.0.0.1 - - [10/Nov/2026 09:27:06] "PUT /api/state HTTP/1.1" 400 -
+127.0.0.1 - - [10/Nov/2026 09:27:06] code 404, message File not found
+127.0.0.1 - - [10/Nov/2026 09:27:06] "GET /../../.local/cloud.sqlite3 HTTP/1.1" 404 -
+127.0.0.1 - - [10/Nov/2026 09:27:06] code 404, message File not found
+127.0.0.1 - - [10/Nov/2026 09:27:06] "GET /server/app.py HTTP/1.1" 404 -
+127.0.0.1 - - [10/Nov/2026 09:27:06] "POST /api/logout HTTP/1.1" 200 -
+127.0.0.1 - - [10/Nov/2026 09:27:06] "GET /api/state HTTP/1.1" 401 -
+ok
+test_accounts_passwords_tokens_logout_and_isolation (server.test_server.ServiceTests) ... ok
+test_certificates_are_recomputed_and_existing_snapshot_is_immutable (server.test_server.ServiceTests) ... ok
+test_different_concurrent_claims_allow_only_one_revision (server.test_server.ServiceTests) ... ok
+test_invalid_migration_cannot_create_unbounded_drop_work_or_nonfinite_saves (server.test_server.ServiceTests) ... ok
+test_optimistic_save_rejects_stale_cross_device_overwrite (server.test_server.ServiceTests) ... ok
+test_persistence_reopen_and_session_expiry (server.test_server.ServiceTests) ... ok
+test_same_request_concurrent_and_retry_after_lost_response_pays_once (server.test_server.ServiceTests) ... ok
+test_server_drops_match_catalog_keep_rares_and_overflow (server.test_server.ServiceTests) ... ok
+test_server_time_ignores_both_future_and_rollback_client_clocks (server.test_server.ServiceTests) ... ok
+test_switch_accounts_for_old_source_and_preserves_fractional_carries (server.test_server.ServiceTests) ... ok
+test_validation_and_malformed_data_do_not_mutate (server.test_server.ServiceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 17.153s
+
+OK

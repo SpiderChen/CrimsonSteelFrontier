@@ -1,0 +1,520 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: tests never write player save
+PASS: audio waits for user activation
+PASS: global mute suppresses combat audio
+PASS: button feedback uses imported CC0 OGG
+PASS: mute immediately stops active voices
+PASS: affordable upgrade succeeds
+PASS: upgrade charges both currencies exactly
+PASS: upgrading increases live squad attack
+PASS: insufficient resources cannot upgrade
+PASS: locked pilots cannot be upgraded
+PASS: locked pilots cannot be selected
+PASS: recruit with stars succeeds
+PASS: first recruit guarantees third pilot and exact cost
+PASS: new recruit contributes to squad attack
+PASS: unlocked pilot can become leader
+PASS: ten pull works
+PASS: each duplicate improves one pilot
+PASS: unaffordable recruit cannot spend stars
+PASS: boss victory advances stage and gives stars
+PASS: new enemy has full health
+PASS: skill cannot fire without full energy
+PASS: charged skill fires and spends energy
+PASS: idle resources can be claimed
+PASS: idle claim transfers once
+PASS: idle reward cannot be claimed twice
+PASS: completed mission grants reward
+PASS: mission cannot be claimed twice
+PASS: pause stops combat but production continues
+PASS: defeat enters repair state
+PASS: repair restarts combat
+PASS: save roundtrip restores progress
+PASS: forty-eight offline hours receive twenty-four full and twenty-four half-rate hours
+PASS: malformed save arrays are ignored safely
+PASS: launching a projectile does not immediately apply damage
+PASS: projectile travel time precedes target damage
+PASS: collision applies damage once when the projectile reaches the target
+PASS: moving away from a shot causes a real miss
+PASS: piercing hits real collinear targets with attenuation and a finite target budget
+PASS: bounces find reachable distinct targets and reduce the initial damage budget
+PASS: split produces two real child projectiles without recursive splitting or re-hitting the parent target
+PASS: terrain stops a projectile before it reaches a target behind cover
+PASS: one weapon model can roll all three distinct compatible mechanisms
+PASS: mechanism tags restrict armor and reject incompatible ammunition on beams
+PASS: save loading preserves legal mechanisms and removes invalid mechanism IDs
+PASS: continuous laser creates a real channel before any damage is applied
+PASS: laser ticks exactly eight times along its actual ray
+PASS: damage telemetry attributes the same damage to weapon, hand, type and attack kind
+PASS: pulse light-up is a charge period without damage
+PASS: charged pulse applies a single concentrated hit
+PASS: visible beam endpoint and real damage both stop at terrain
+PASS: sweep modulation hits both targets only as the moving ray crosses them
+PASS: missile changes trajectory and intercepts a moving target
+PASS: four swarm missiles share a ninety-percent total damage budget
+PASS: swarm damage and trigger coefficients are distributed across actual missile impacts
+PASS: swarm integer rounding cannot multiply very small damage budgets
+PASS: proximity missile detonates before contact with its real radius, reduced damage and trigger telemetry
+PASS: ion conversion splits existing damage without duplication and records its effective activation
+PASS: incendiary missile reserves part of its damage for the ground zone
+PASS: burning zone has six finite ticks and preserves the total damage budget
+PASS: leaving a burning zone avoids all subsequent damage
+PASS: all twelve mechanisms use compatible pools for beams, missiles and projectile weapons
+PASS: cooling circuit vents heat and grants a bounded shield event
+PASS: cooling circuit cannot recursively retrigger during its cooldown
+PASS: temporary vent shield absorbs real incoming damage
+PASS: temporary shield expires even when its capacity is not consumed
+PASS: actual armor loss arms a finite counterattack
+PASS: additional rapid hits cannot bypass counterattack cooldown
+PASS: reactor ion conversion composes with a weapon shape modifier without adding damage
+PASS: fully electric weapons reject redundant conversion while reactors can support it
+PASS: hot drive grants its high-temperature damage and increases actual heat cost
+PASS: swarm rockets guide toward separate nearby targets instead of merely cloning one shot
+PASS: fatal damage cannot produce a posthumous counterattack
+PASS: counter shockwave hits actual nearby enemies and is attributed to its armor source
+PASS: per-type resistance resolves converted components once and telemetry reflects actual damage
+PASS: world chunk generation is deterministic
+PASS: world chunk cache stays bounded on a huge map
+PASS: world navigation respects outer bounds
+PASS: continuous world spans 65536 by 65536 units
+PASS: cross-chunk destination receives a path
+PASS: segmented path reaches distant target without loading a scene
+PASS: pathfinding avoids blocked terrain across chunk boundaries
+PASS: movement records distance and multiple explored chunks
+PASS: exploration does not fight enemies elsewhere on the map
+PASS: skill cannot damage a non-existent map encounter
+PASS: walking to a resource collects it
+PASS: collected map resource cannot be claimed twice
+PASS: outpost activation repairs armor and rewards stars
+PASS: approaching a map enemy starts an encounter
+PASS: victory removes that specific map enemy
+PASS: path movement can be commanded during combat
+PASS: mech moves and fires during the same combat interval
+PASS: moving-fire count requires real displacement in the firing frame
+PASS: auto target acquisition does not cancel held movement
+PASS: outside attack range neither side deals phantom damage
+PASS: walking out of leash range drops target and records armor
+PASS: re-engaging preserves enemy damage
+PASS: victory does not interrupt held movement
+PASS: full-energy skill fires automatically for one-hand play
+PASS: out-of-range target yields to a nearby enemy automatically
+PASS: retreat leaves combat and provides a safe escape interval
+PASS: world save restores position and one-time collection state
+PASS: malformed world save is ignored safely
+PASS: idle patrol chooses a nearby unvisited objective
+PASS: enemy detects player inside warning radius and starts pursuit
+PASS: pursuit physically closes distance to the player
+PASS: targeting and map use the same moving enemy position
+PASS: pursuer fires after entering weapon range
+PASS: ranged enemy stops before overlapping player
+PASS: enemy resumes chasing a moving player
+PASS: enemy abandons pursuit outside its home leash
+PASS: enemy walks home and resumes guarding
+PASS: returning enemies do not keep firing at distant player
+PASS: returning home preserves damage already dealt
+PASS: obstacle scenario blocks direct line of fire
+PASS: pursuer routes around terrain without walking through it
+PASS: pursuer gets around cover before attacking
+PASS: multiple guard posts exist within shared warning range
+PASS: multiple enemies can pursue independently of selected target
+PASS: multiple pursuers have independent attack cooldowns
+PASS: moving enemies restore their live position from save
+PASS: player defeat stops damage and releases target lock
+PASS: enemies disengage and return when player is down
+PASS: starter kit equips six slots including both weapons and a backpack
+PASS: all available blueprints roll one to three distinct affixes within quality ranges
+PASS: transferring a part removes its previous owner without duplication
+PASS: equipped parts cannot be dismantled
+PASS: unequipped part dismantles once with quality-scaled reward
+PASS: invalid part and slot IDs are rejected
+PASS: crafting charges both currencies exactly and stores the rolled item
+PASS: unaffordable crafting cannot change resources or inventory
+PASS: every fifth victory guarantees an epic part drop
+PASS: full inventory blocks crafting before currency deduction
+PASS: full inventory preserves guaranteed epic drops in overflow without converting their rolls to alloy
+PASS: weapon inherent stats, affix, rail range and slower interval affect live combat
+PASS: removing a part removes its combat effects immediately
+PASS: overdrive core shortens the actual firing interval
+PASS: burst weapon starts with one real shot and two pending shots
+PASS: burst weapon emits three separately timed damage events
+PASS: each burst round emits a matching visual effect event
+PASS: lethal burst cancels queued rounds instead of hitting the next enemy
+PASS: reactive armor applies passive reduction and timed shield to real incoming damage
+PASS: reactive shield cannot repeatedly block during cooldown
+PASS: reactive shield recharges through combat time
+PASS: re-equipping a shield cannot reset its cooldown
+PASS: fortress armor trades speed for additional damage reduction
+PASS: precision core grants its stated critical chance
+PASS: nanite armor actually repairs health over time
+PASS: synchronization core adds skill energy every second
+PASS: effective stat caps prevent invulnerability and unbounded fire rate
+PASS: critical attacks deal doubled damage and emit critical visuals
+PASS: hover drive changes real movement speed
+PASS: pulse drive produces a real timed movement burst
+PASS: tread chassis trades movement speed for reduction
+PASS: plasma damages the actual primary and only nearby secondary enemies
+PASS: plasma combat emits its distinct explosion visual
+PASS: splash kills award victory without resetting the primary target health
+PASS: queued burst rounds cannot retarget another enemy
+PASS: splash also hits visible guards outside the active AI cache
+PASS: disk roundtrip preserves exact rolls, IDs and per-mech loadouts
+PASS: legacy saves receive a starter kit without resetting game progress
+PASS: malformed rolls, duplicate IDs and duplicated equipment are sanitized
+PASS: next unique ID is rebuilt from stored items
+PASS: hostile bullets do not deal damage at firing time
+PASS: actual hostile impact consumes shield before armor health
+PASS: damage over shield capacity reaches real armor
+PASS: shield regeneration starts only after four seconds without damage
+PASS: nanite repair uses the same health restoration accounting in training and combat
+PASS: moving off a hostile trajectory evades the bullet and it expires
+PASS: cover blocks hostile projectiles with the same terrain rule
+PASS: reactive barrier and armor reduction share a deterministic defense pipeline
+PASS: reactive barrier cannot trigger again before its cooldown
+PASS: carrier launches a real boss encounter in its arena
+PASS: frontal boss armor reduces ordinary shots
+PASS: flanking bypasses frontal armor and increases effective damage
+PASS: breaking tracks removes their target and switches automatic targeting
+PASS: cannon is independently destructible and body damage advances the phase
+PASS: overload phase creates four actual danger zones and a drone
+PASS: boss save restores phases, broken parts, facing, drones and pending attack countdowns
+PASS: active boss save restores automatic tactical movement along with pending attacks
+PASS: boss telegraphs cause no damage before their countdown expires
+PASS: moving out of the displayed circle avoids the actual blast
+PASS: remaining inside the same circle receives real damage at detonation
+PASS: boss defeat grants first-clear rewards once and returns the player to the carrier
+PASS: late projectiles cannot duplicate boss rewards
+PASS: full inventory preserves the complete boss epic in overflow
+PASS: overflow boss epic can be recovered exactly once after inventory space is freed
+PASS: reference build [0, 1, 3, 6, 11, 13] meets weight and power constraints
+BOSS BUILD [0, 1, 3, 6, 11, 13] victories=1 hp=0.0 player=100.0 elapsed=50.3999999999993
+PASS: reference build [0, 1, 3, 6, 11, 13] clears all phases using real automatic movement and attacks
+PASS: reference build [1, 1, 4, 8, 9, 12] meets weight and power constraints
+BOSS BUILD [1, 1, 4, 8, 9, 12] victories=1 hp=0.0 player=100.0 elapsed=29.7000000000003
+PASS: reference build [1, 1, 4, 8, 9, 12] clears all phases using real automatic movement and attacks
+PASS: reference build [2, 0, 5, 7, 10, 12] meets weight and power constraints
+BOSS BUILD [2, 0, 5, 7, 10, 12] victories=1 hp=0.0 player=100.0 elapsed=46.2999999999995
+PASS: reference build [2, 0, 5, 7, 10, 12] clears all phases using real automatic movement and attacks
+PASS: armor depletion recalls the mech to its carrier recovery point
+PASS: carrier recovery cancels held input, route and patrol
+PASS: recall preserves damage on the abandoned enemy
+PASS: defeat opens the carrier facility hub
+PASS: launch is blocked while carrier repair is incomplete
+PASS: reload preserves the carrier recovery state
+PASS: repair completes with full armor inside the carrier
+PASS: docked mechs are protected from enemy damage
+PASS: carrier stays stationary and does not acquire battlefield targets
+PASS: departure launches from the carrier rather than the death location
+PASS: field access to facilities asks the player to return to the carrier
+PASS: manual recall unlocks the carrier facilities at the recovery point
+PASS: portrait navigation page 0 builds
+PASS: portrait navigation page 1 builds
+PASS: portrait navigation page 2 builds
+PASS: portrait navigation page 3 builds
+PASS: portrait navigation page 4 builds
+PASS: movement reproduction locates a real obstacle next to open terrain
+PASS: holding movement into terrain reports the exact blocking collision cell
+PASS: terrain blocking does not cancel the held movement input
+PASS: blocked movement gets an obstacle hint rather than a moving label
+PASS: repair countdown takes priority over stale collision information
+PASS: depleted armor deliberately suspends movement during repair
+PASS: repair respawns at the carrier and clears the held direction
+PASS: changing direction immediately resumes movement along the obstacle
+PASS: release clears the obstacle indication
+PASS: floating joystick starts at any screen point (80.0, 100.0)
+PASS: press without drag does not move the mech
+PASS: thumb jitter is suppressed by the dead zone
+PASS: floating stick reaches bounded full speed
+PASS: lifting thumb stops movement without starting a path
+PASS: floating joystick starts at any screen point (620.0, 870.0)
+PASS: press without drag does not move the mech
+PASS: thumb jitter is suppressed by the dead zone
+PASS: floating stick reaches bounded full speed
+PASS: lifting thumb stops movement without starting a path
+PASS: floating joystick starts at any screen point (360.0, 500.0)
+PASS: press without drag does not move the mech
+PASS: thumb jitter is suppressed by the dead zone
+PASS: floating stick reaches bounded full speed
+PASS: lifting thumb stops movement without starting a path
+PASS: second finger switches to camera control without movement
+PASS: two-finger drag pans the map
+PASS: remaining pinch finger cannot become a stuck joystick
+PASS: recenter restores camera follow
+PASS: map zoom upper bound is enforced
+PASS: map zoom lower bound is enforced
+PASS: release over another control cannot leave the joystick stuck
+PASS: focus loss clears all movement input
+PASS: opening a modal cancels held joystick input
+PASS: mission modal opens
+PASS: modal closes without blocking navigation
+PASS: parts inventory modal builds
+PASS: part detail and comparison build for 蜂群连射炮
+PASS: part detail and comparison build for 棱镜反应装甲
+PASS: part detail and comparison build for 离子悬浮引擎
+PASS: part detail and comparison build for 极光同步核心
+PASS: part detail and comparison build for 苍穹轨道炮
+PASS: part detail and comparison build for 脉冲矢量喷口
+PASS: part detail and comparison build for 霜翼散热背包
+PASS: part detail and comparison build for 棱镜反应装甲
+PASS: six-slot starter has independent weapons and a real cooling backpack
+PASS: one weapon can change hands without being duplicated
+PASS: armor cannot occupy the secondary weapon slot
+PASS: four-slot saves migrate without rerolling items or changing old preset references
+PASS: load limit can fail independently of sufficient power
+PASS: dual energy weapons can exceed reactor power while still meeting the weight limit
+PASS: battery backpack solves power pressure while giving up cooler output
+PASS: departure rejects an invalid rig before moving the player
+PASS: changing to low-power high-load tracks makes the dual energy rig launchable
+PASS: overheat never prevents locomotion
+PASS: left burst starts on its own cooldown
+PASS: independent rail cooldown advances while the other hand is bursting
+PASS: only the weapon whose own range reaches the target fires
+PASS: overheat extends cooldowns instead of emitting normal-rate shots
+PASS: overheat hysteresis stays active above the recovery threshold
+PASS: cooling below sixty restores normal fire rate
+PASS: heat hysteresis and the independent secondary weapon survive disk reload
+PASS: part swapping cannot clear heat or bypass overheat
+PASS: carrier maintenance clears thermal state
+PASS: presets protect referenced parts even while unequipped
+PASS: applying a preset restores its exact unique items and transfers ownership
+PASS: preset references and dismantle protection survive save roundtrip
+PASS: invalid presets cannot partially mutate current equipment
+PASS: training scenario 0 measures actual projectile hits
+PASS: training scenario 1 measures actual projectile hits
+PASS: training scenario 2 measures actual projectile hits
+PASS: survival training receives damage from actual enemy projectile collisions
+PASS: training measures survival pressure without affecting rewards, progress or real armor
+PASS: training facility opens from the carrier
+PASS: preset archive opens from the carrier
+PASS: reforge charges its fixed price once and opens three saved proposals
+PASS: reforge proposals respect quality ranges and cannot duplicate other affix stats
+PASS: a pending result cannot be rerolled or upgraded to evade its saved choices
+PASS: pending reforge survives a save roundtrip and protects its item from recycling
+PASS: keeping the old result preserves all affixes while retaining the chosen calibration slot
+PASS: only the first selected affix can be reforged and invalid requests do not charge
+PASS: the chosen calibration slot can be reforged repeatedly at the same fixed price
+PASS: choosing a proposal replaces exactly one affix
+PASS: a chosen reforge cannot be applied twice
+PASS: part upgrade increases actual equipped stats without changing its unique ID
+PASS: upgrade retains rolled affixes, mechanism and preset references
+PASS: part upgrades stop at the current region's level cap
+PASS: unaffordable reforging changes neither proposals nor calibration locks
+PASS: dismantling a mechanism grants quality-scaled research progress
+PASS: dismantling a mechanism grants quality-scaled research progress
+PASS: six research points permanently unlock only the researched mechanism
+PASS: unresearched or incompatible mechanism installation cannot spend resources
+PASS: researched mechanism replaces the existing mechanism and retains numerical rolls and level
+PASS: installing an already active mechanism does not charge or consume permanent research
+PASS: inventory filters combine hand compatibility, mechanism and favorite status
+PASS: batch candidates skip equipped, preset, locked and favorite parts
+PASS: batch recycling revalidates every ID and never rewards duplicate or protected entries
+PASS: levels, flags, research and reforge proposals persist together
+PASS: a full warehouse retains the complete rare drop in an overflow warehouse
+PASS: collecting overflow with no room cannot delete or reroll its contents
+PASS: overflow rolls and their globally unique IDs survive save roundtrip
+PASS: freeing one slot recovers the same overflow item once without rerolling
+PASS: workshop, research, filters, batch preview, overflow and saved reforge screens build
+PASS: target policy parts selects its intended live target
+PASS: target policy nearest selects its intended live target
+PASS: target policy elite selects its intended live target
+PASS: target policy weak selects its intended live target
+PASS: close-threat defense overrides distant target priorities
+PASS: low shield initiates a retreat without recalling a healthy mech
+PASS: shield recovery has hysteresis and does not oscillate at twenty percent
+PASS: sixty percent shield resumes fighting while critical armor requests carrier withdrawal
+PASS: close and far strategies produce opposite real movement goals within weapon range
+PASS: danger-zone avoidance takes priority over the selected engagement distance
+PASS: elite skill timing holds a ready skill until an elite is in range
+PASS: danger skill timing waits for an actual defensive trigger
+PASS: conservative heat policy really stops fire, cools and resumes without overheating
+PASS: cooling clears a heat hold even without a target or another firing update
+PASS: the same pressure configuration can overheat when continuous fire is chosen
+PASS: alternation completes a three-round burst before switching to the other weapon
+PASS: alternation cannot deadlock on an out-of-range weapon
+PASS: real field targeting selects the marked elite over a nearer guard
+PASS: retargeting picks the wounded enemy and preserves the old enemy's remaining armor
+PASS: real field targeting can return to the nearest threat
+PASS: automatic far-distance strategy physically moves away from a nearby enemy
+PASS: stopping autopilot cancels its tactical route immediately
+PASS: manual steering takes priority over an automatic retreat direction
+PASS: real field danger strategy holds a full skill in a quiet, healthy state
+PASS: critical armor opens the real field danger skill gate
+PASS: manual skill release remains available while the automatic danger gate is closed
+PASS: real boss auto-targeting honors the wounded-target policy for maintenance drones
+PASS: explicit boss part locking overrides automatic target preferences and exposes the actual burst target ID
+PASS: loadout presets restore the exact saved tactical settings with their equipment
+PASS: each pilot has independent persistent tactical preferences
+PASS: pilot policies and preset policies survive an actual disk save roundtrip
+PASS: reloading during a heat hold preserves its cooldown hysteresis
+PASS: automatic critical-armor withdrawal really recalls and repairs the mech at its carrier
+PASS: training uses the same target, thermal and elite skill policy as the field
+PASS: elite timing also holds a ready skill during single-target training without elites
+PASS: training records safe withdrawal without recalling or damaging the actual mech
+PASS: training manual takeover prevents automatic distance corrections
+PASS: invalid saved tactical fields fall back to supported defaults
+PASS: upgrading the other hand cannot leak its inherent attack into this weapon's damage profile
+PASS: a target within nominal range is rejected when an actual terrain cell blocks its firing line
+PASS: only the industrial region is available before a regional first clear
+PASS: locked regions, invalid routes and off-region farming targets cannot launch
+PASS: locked named blueprints cannot be crafted or charge resources
+PASS: combat HUD exposes the full field and hides the carrier resource/navigation shell
+PASS: combat gauges remain thin after their real theme and scene initialization
+PASS: unlocked region 0 launches its full real route with a legal farm target
+PASS: route progression reveals the manual boss-target control without rebuilding the battle page
+PASS: finished routes safely hide contextual HUD controls after the run data is cleared
+REGION ROUTE 0 outcome=cleared nodes=6 seconds=68.8 hp=100.0 parts=11
+PASS: region 0 completes every node, real enemies, events and its full boss automatically
+PASS: regional first clear unlocks its named blueprint, samples and durable progress
+PASS: the next region unlocks only after the preceding first clear
+PASS: first clear grants exactly one epic named component with its mechanism occupying the normal slot
+PASS: return from a route preserves prior overworld resources and wounded enemies
+PASS: combat HUD exposes the full field and hides the carrier resource/navigation shell
+PASS: combat gauges remain thin after their real theme and scene initialization
+PASS: unlocked region 1 launches its full real route with a legal farm target
+PASS: route progression reveals the manual boss-target control without rebuilding the battle page
+PASS: finished routes safely hide contextual HUD controls after the run data is cleared
+REGION ROUTE 1 outcome=cleared nodes=6 seconds=50.8 hp=100.0 parts=12
+PASS: region 1 completes every node, real enemies, events and its full boss automatically
+PASS: regional first clear unlocks its named blueprint, samples and durable progress
+PASS: the next region unlocks only after the preceding first clear
+PASS: first clear grants exactly one epic named component with its mechanism occupying the normal slot
+PASS: return from a route preserves prior overworld resources and wounded enemies
+PASS: combat HUD exposes the full field and hides the carrier resource/navigation shell
+PASS: combat gauges remain thin after their real theme and scene initialization
+PASS: unlocked region 2 launches its full real route with a legal farm target
+PASS: route progression reveals the manual boss-target control without rebuilding the battle page
+PASS: finished routes safely hide contextual HUD controls after the run data is cleared
+REGION ROUTE 2 outcome=cleared nodes=6 seconds=53.3 hp=100.0 parts=13
+PASS: region 2 completes every node, real enemies, events and its full boss automatically
+PASS: regional first clear unlocks its named blueprint, samples and durable progress
+PASS: the next region unlocks only after the preceding first clear
+PASS: first clear grants exactly one epic named component with its mechanism occupying the normal slot
+PASS: return from a route preserves prior overworld resources and wounded enemies
+PASS: combat HUD exposes the full field and hides the carrier resource/navigation shell
+PASS: combat gauges remain thin after their real theme and scene initialization
+PASS: unlocked region 3 launches its full real route with a legal farm target
+PASS: route progression reveals the manual boss-target control without rebuilding the battle page
+PASS: finished routes safely hide contextual HUD controls after the run data is cleared
+REGION ROUTE 3 outcome=cleared nodes=6 seconds=54.8 hp=100.0 parts=11
+PASS: region 3 completes every node, real enemies, events and its full boss automatically
+PASS: regional first clear unlocks its named blueprint, samples and durable progress
+PASS: the next region unlocks only after the preceding first clear
+PASS: first clear grants exactly one epic named component with its mechanism occupying the normal slot
+PASS: return from a route preserves prior overworld resources and wounded enemies
+PASS: the salvage branch launches with an independent selected torso target
+PASS: repeat salvage clear awards node/cache/boss samples without granting another first-clear bonus
+PASS: repeat regional boss gives the selected model as a genuine epic drop
+PASS: first-clear blueprints become craftable at the normal exact recipe price
+PASS: regional samples exchange for an epic named component at the displayed fixed price
+PASS: off-region exchange requests cannot consume samples
+PASS: a directed sample exchange stores its complete rare component in overflow when inventory is full
+PASS: clearing an actual combat node reaches the selected route's weapon-cache event
+PASS: opening the cache grants the directed rare item and raises the actual alert level
+PASS: stale or repeated event submissions cannot duplicate equipment or bounty
+PASS: one alert level adds a real enemy to the following combat node
+PASS: the same cache alert also adds a real timed boss artillery warning
+PASS: combat failure loses only the unbanked bounty and returns the damaged mech to its carrier
+PASS: failure preserves every acquired component, prior resource and regional sample
+PASS: cooling-system choice changes real heat dissipation and actual movement speed
+PASS: mid-route disk reload restores phase, event effects, loot target and automatic combat without advancing paused nodes
+PASS: wounded enemies retain health and their real regional combat profile after reload
+PASS: temporary cooling and movement restrictions expire after the promised two combat nodes
+PASS: voluntary extraction banks the full earned bounty exactly once
+PASS: repeated extraction cannot duplicate a settled bounty
+PASS: region selection, locked/unlocked details, samples, blueprints and live route controls build
+PASS: named rail blueprint changes actual shot damage and cooldown with its stated tradeoff
+PASS: named orbital reactor provides real supply, conversion and its precision trait without an extra mechanism slot
+PASS: malformed saved node phases cannot skip directly to a boss reward state
+PASS: idle tiers integrate 24 hours without exceeding the seventy-two-hour limit
+PASS: idle tiers integrate 25 hours without exceeding the seventy-two-hour limit
+PASS: idle tiers integrate 48 hours without exceeding the seventy-two-hour limit
+PASS: idle tiers integrate 72 hours without exceeding the seventy-two-hour limit
+PASS: idle tiers integrate 100 hours without exceeding the seventy-two-hour limit
+PASS: duplicate or backward clock observations cannot credit the same interval again
+PASS: claiming cannot reset the high-water timestamp and replay a previous interval
+PASS: an uncontrolled region cannot be certified or simulated as a first boss kill
+PASS: certification is an instance of the actual combat controller with the same weapon and thermal configuration
+SALVAGE CERT success=true reason=连续三次自动清剿通过 seconds=16.75 hp=81.34 trials=3
+PASS: three real automatic cleanups measure actual hits, damage, elapsed time and survival
+PASS: the detached simulator uses private RNG and cannot perturb the live combat or loot stream
+PASS: simulated movement, enemy rewards, damage and deaths cannot modify the live player, world, inventory or progression
+PASS: automatic paths keep every cell-center waypoint inside the playable arena bounds
+SALVAGE SOLO success=true reason=连续三次自动清剿通过 details={}
+PASS: a single legal ranged weapon completes all three cleanups without getting trapped at arena edges
+SALVAGE REGION 1 success=true seconds=11.15 hp=65.22
+PASS: regional certification 1 completes its actual enemy profiles and environmental conditions
+SALVAGE REGION 2 success=true seconds=12.65 hp=74.24
+PASS: regional certification 2 completes its actual enemy profiles and environmental conditions
+SALVAGE REGION 3 success=true seconds=15.90 hp=60.38
+PASS: regional certification 3 completes its actual enemy profiles and environmental conditions
+PASS: an actual tactical withdrawal fails certification instead of issuing a favorable snapshot
+PASS: cancelling and disposing a detached cleanup has no real resource side effects
+PASS: switching schemes settles prior time at its original certified rate and keeps separate source accounts
+PASS: changing schemes cannot restart the first twenty-four full-rate hours
+PASS: arbitrary scheme changes still share the seventy-two-hour global capacity
+PASS: fractional equipment and research survive frequent claims and mature exactly once
+PASS: certificates, active scheme, fractional carries and receipt sequence survive JSON roundtrip
+PASS: controlled-region certification starts from the actual current build
+PASS: completed certification creates one persistent usable certificate
+PASS: changing live equipment while certification runs cannot change its immutable snapshot
+PASS: a successful controlled-region certificate can be enabled independently of live equipment
+PASS: claim atomically transfers the calculated whole currency rewards
+PASS: offline equipment is real compatible regional loot, retained in overflow alongside usable research materials and samples
+PASS: offline gear uses the same blueprint, affix and mechanism compatibility rules as active play
+PASS: a second claim cannot duplicate currency, gear or research
+PASS: automatic common dismantling also works in overflow and always preserves rare equipment
+PASS: offline research materials can really complete a chosen mechanism's research
+PASS: idle ledger, certificate list/detail/progress, source history and research-material controls build
+PASS: enabled automatic dismantling accounts for every rolled offline component once
+PASS: automatic claim dismantling preserves every rare item and awards the exact common salvage materials
+PASS: an actual disk reload preserves the certified scheme and cannot replay a completed reward receipt
+PASS: Scarlet launches three real thermal projectiles before any damage
+PASS: Scarlet vents thirty heat and gains a timed heat discount without healing
+PASS: Scarlet skill collisions attribute actual damage to the skill and thermal type
+PASS: Scarlet heat buff expires and passive requires the stated temperature
+PASS: Raven launches a single penetrating rail without generic healing
+PASS: Raven skill genuinely crosses both aligned targets as electric damage
+PASS: Raven mark grants fifteen percent only to hand weapons against the marked target
+PASS: Raven passive activates after actual stationary time
+PASS: moving immediately removes Raven stationary benefit
+PASS: Raven target mark expires without permanently changing damage
+PASS: Frost can cast without a target and creates no hidden damage
+PASS: Frost grants thirty shield and vents twenty-five without instant generic healing
+PASS: Frost repairs exactly fifteen armor over five seconds
+PASS: Frost repair cannot continue beyond the declared duration
+PASS: Frost low-armor passive creates a bounded emergency shield
+PASS: repeated hits cannot refresh emergency shield during cooldown
+PASS: destroyed mechs cannot trigger a passive shield or cast repair
+PASS: active pilot timers and target identity survive JSON persistence
+PASS: personal tasks and higher-trust conversations honor their conditions
+PASS: personal task claims grant trust once and nodes grant one trust per completed event
+PASS: conversation can be replayed without farming repeated trust
+PASS: Scarlet second task progresses from actual heat vented
+PASS: final personal chapter requires real boss victories
+PASS: trust, task claims, metrics and read conversations survive JSON persistence
+PASS: pilot 0 ability, task and conversation screens build
+PASS: training pilot 0 uses the same real skill runtime
+PASS: pilot 1 ability, task and conversation screens build
+PASS: training pilot 1 uses the same real skill runtime
+PASS: pilot 2 ability, task and conversation screens build
+PASS: training pilot 2 uses the same real skill runtime
+PASS: certification uses a fresh pilot runtime and cannot leak story progress into the live roster
+PASS: pilot 0 can launch a real exploration route
+PASS: pilot 0 opens the actual cache event
+PASS: cache exploration perks grant only the declared bounty or research reward for pilot 0
+PASS: stale cache choice cannot duplicate a pilot exploration perk
+PASS: supply repair uses Frost's actual exploration specialty
+PASS: pilot 1 can launch a real exploration route
+PASS: pilot 1 opens the actual cache event
+PASS: cache exploration perks grant only the declared bounty or research reward for pilot 1
+PASS: stale cache choice cannot duplicate a pilot exploration perk
+PASS: supply repair uses Frost's actual exploration specialty
+PASS: pilot 2 can launch a real exploration route
+PASS: pilot 2 opens the actual cache event
+PASS: cache exploration perks grant only the declared bounty or research reward for pilot 2
+PASS: stale cache choice cannot duplicate a pilot exploration perk
+PASS: supply repair uses Frost's actual exploration specialty
+PASS: live personal task reward is paid exactly once
+PASS: actual disk reload preserves personal rewards, active effects and full Frost shield
+PASS: completed personal rewards remain protected after reload
+CHECKS: 505 passed, 0 failed

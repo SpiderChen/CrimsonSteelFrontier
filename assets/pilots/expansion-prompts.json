@@ -1,0 +1,20 @@
+[
+  {
+    "file": "reina.png",
+    "tool": "image_gen.imagegen",
+    "transparent_background": true,
+    "prompt": "Use case: illustration-story. Asset type: single character portrait for a polished Japanese anime mecha RPG. REINA, 雷娜, 27-year-old adult female ace close-combat mech pilot. Short asymmetrical copper-red hair, amber eyes, small eyebrow scar, confident focused smile. Orange and charcoal armored flight jacket, fitted high-neck black pilot suit, practical armored gloves and thigh harness, a compact sheathed energy blade at the hip. Dynamic but relaxed stance with one hand on hip. Highly finished anime game illustration, precise clean linework, detailed face and layered technical clothing, elegant athletic adult proportions, tasteful fully clothed design. Three-quarter body from above head to mid-thigh; face centered at x=50%, y=20% with both shoulders fully in frame. Vertical 2:3 composition, centered solo character, head and hair entirely inside generous frame margins. Transparent background with no scenery, no text, no logos, no watermark. Soft cinematic rim light and nuanced material rendering. Distinct individual character, consistent premium anime gacha-game art direction."
+  },
+  {
+    "file": "aster.png",
+    "tool": "image_gen.imagegen",
+    "transparent_background": true,
+    "prompt": "Use case: illustration-story. Asset type: single character portrait for a polished Japanese anime mecha RPG. ASTER, 星澜, 29-year-old adult female missile fire-control specialist. Long dark teal hair in a sleek high ponytail, emerald eyes, slim tactical glasses, calm analytical expression. Emerald and graphite futuristic officer flight suit with pale silver armor accents, fingerless tactical glove, holding a small translucent targeting tablet at waist. Elegant poised stance. Highly finished anime game illustration, precise clean linework, detailed face and layered technical clothing, elegant athletic adult proportions, tasteful fully clothed design. Three-quarter body from above head to mid-thigh; face centered at x=50%, y=20% with both shoulders fully in frame. Vertical 2:3 composition, centered solo character, head and hair entirely inside generous frame margins. Transparent background with no scenery, no text, no logos, no watermark. Soft cinematic rim light and nuanced material rendering. Distinct individual character, consistent premium anime gacha-game art direction."
+  },
+  {
+    "file": "eve.png",
+    "tool": "image_gen.imagegen",
+    "transparent_background": true,
+    "prompt": "Use case: illustration-story. Asset type: single character portrait for a polished Japanese anime mecha RPG. EVE, 伊芙, 30-year-old adult female chief energy-systems pilot. Wavy shoulder-length pale blonde hair, warm golden eyes, composed reassuring smile. Ivory and champagne-gold armored command coat over a dark navy high-neck fitted flight suit, technical gloves, small floating gold energy regulator beside one hand. Mature confident posture. Highly finished anime game illustration, precise clean linework, detailed face and layered technical clothing, elegant athletic adult proportions, tasteful fully clothed design. Three-quarter body from above head to mid-thigh; face centered at x=50%, y=20% with both shoulders fully in frame. Vertical 2:3 composition, centered solo character, head and hair entirely inside generous frame margins. Transparent background with no scenery, no text, no logos, no watermark. Soft cinematic rim light and nuanced material rendering. Distinct individual character, consistent premium anime gacha-game art direction."
+  }
+]

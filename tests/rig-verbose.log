@@ -1,0 +1,350 @@
+WorkerThreadPool: 12 threads, 3 max low-priority.
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+SDL: Init OK!
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+SceneTreeFTI: traversal method DEFAULT
+Loading resource: res://scripts/state.gd remapped: res://scripts/state.gd
+Completed load for: 'res://scripts/state.gd' remapped 'res://scripts/state.gd' at thread -1
+Loading resource: res://scripts/sfx.gd remapped: res://scripts/sfx.gd
+Loading resource: res://assets/free/audio/ui_click.ogg remapped: res://assets/free/audio/ui_click.ogg
+Loading resource: res://.godot/imported/ui_click.ogg-330aa88a43864ac64058b07ce5e3590b.oggvorbisstr remapped: res://.godot/imported/ui_click.ogg-330aa88a43864ac64058b07ce5e3590b.oggvorbisstr
+Completed load for: 'res://assets/free/audio/ui_click.ogg' remapped 'res://assets/free/audio/ui_click.ogg' at thread -1
+Loading resource: res://assets/free/audio/laser.ogg remapped: res://assets/free/audio/laser.ogg
+Loading resource: res://.godot/imported/laser.ogg-be9a1a7b619caab2f22851a3cc639efa.oggvorbisstr remapped: res://.godot/imported/laser.ogg-be9a1a7b619caab2f22851a3cc639efa.oggvorbisstr
+Completed load for: 'res://assets/free/audio/laser.ogg' remapped 'res://assets/free/audio/laser.ogg' at thread -1
+Loading resource: res://assets/free/audio/impact.ogg remapped: res://assets/free/audio/impact.ogg
+Loading resource: res://.godot/imported/impact.ogg-2cea610a868d7140f8a6ade63d0c781c.oggvorbisstr remapped: res://.godot/imported/impact.ogg-2cea610a868d7140f8a6ade63d0c781c.oggvorbisstr
+Completed load for: 'res://assets/free/audio/impact.ogg' remapped 'res://assets/free/audio/impact.ogg' at thread -1
+Loading resource: res://assets/free/audio/ultimate.ogg remapped: res://assets/free/audio/ultimate.ogg
+Loading resource: res://.godot/imported/ultimate.ogg-e05cd768816bfb7c22ffb9c4c8f793d6.oggvorbisstr remapped: res://.godot/imported/ultimate.ogg-e05cd768816bfb7c22ffb9c4c8f793d6.oggvorbisstr
+Completed load for: 'res://assets/free/audio/ultimate.ogg' remapped 'res://assets/free/audio/ultimate.ogg' at thread -1
+Loading resource: res://assets/free/audio/explosion.ogg remapped: res://assets/free/audio/explosion.ogg
+Loading resource: res://.godot/imported/explosion.ogg-36b8ddb7cf85a30979c806dad9050f88.oggvorbisstr remapped: res://.godot/imported/explosion.ogg-36b8ddb7cf85a30979c806dad9050f88.oggvorbisstr
+Completed load for: 'res://assets/free/audio/explosion.ogg' remapped 'res://assets/free/audio/explosion.ogg' at thread -1
+Loading resource: res://assets/free/audio/resonance.ogg remapped: res://assets/free/audio/resonance.ogg
+Loading resource: res://.godot/imported/resonance.ogg-8269d5a10ae2309927fda721f1f2b109.oggvorbisstr remapped: res://.godot/imported/resonance.ogg-8269d5a10ae2309927fda721f1f2b109.oggvorbisstr
+Completed load for: 'res://assets/free/audio/resonance.ogg' remapped 'res://assets/free/audio/resonance.ogg' at thread -1
+Completed load for: 'res://scripts/sfx.gd' remapped 'res://scripts/sfx.gd' at thread -1
+Loaded system CA certificates
+Loading resource: res://tests/test_runner.tscn remapped: res://tests/test_runner.tscn
+Loading resource: res://tests/test_runner.gd remapped: res://tests/test_runner.gd
+Completed load for: 'res://tests/test_runner.gd' remapped 'res://tests/test_runner.gd' at thread -1
+Completed load for: 'res://tests/test_runner.tscn' remapped 'res://tests/test_runner.tscn' at thread -1
+PASS: tests never write player save
+PASS: audio waits for user activation
+PASS: global mute suppresses combat audio
+PASS: button feedback uses imported CC0 OGG
+PASS: mute immediately stops active voices
+PASS: affordable upgrade succeeds
+PASS: upgrade charges both currencies exactly
+PASS: upgrading increases live squad attack
+PASS: insufficient resources cannot upgrade
+PASS: locked pilots cannot be upgraded
+PASS: locked pilots cannot be selected
+PASS: recruit with stars succeeds
+PASS: first recruit guarantees third pilot and exact cost
+PASS: new recruit contributes to squad attack
+PASS: unlocked pilot can become leader
+PASS: ten pull works
+PASS: each duplicate improves one pilot
+PASS: unaffordable recruit cannot spend stars
+PASS: boss victory advances stage and gives stars
+PASS: new enemy has full health
+PASS: skill cannot fire without full energy
+PASS: charged skill fires and spends energy
+PASS: idle resources can be claimed
+PASS: idle claim transfers once
+PASS: idle reward cannot be claimed twice
+PASS: completed mission grants reward
+PASS: mission cannot be claimed twice
+PASS: pause stops combat but production continues
+PASS: defeat enters repair state
+PASS: repair restarts combat
+PASS: save roundtrip restores progress
+PASS: offline reward is capped at eight hours
+PASS: malformed save arrays are ignored safely
+Loading resource: res://tests/attack_checks.gd remapped: res://tests/attack_checks.gd
+Completed load for: 'res://tests/attack_checks.gd' remapped 'res://tests/attack_checks.gd' at thread -1
+PASS: launching a projectile does not immediately apply damage
+PASS: projectile travel time precedes target damage
+PASS: collision applies damage once when the projectile reaches the target
+PASS: moving away from a shot causes a real miss
+PASS: piercing hits real collinear targets with attenuation and a finite target budget
+PASS: bounces find reachable distinct targets and reduce the initial damage budget
+PASS: split produces two real child projectiles without recursive splitting or re-hitting the parent target
+PASS: terrain stops a projectile before it reaches a target behind cover
+PASS: one weapon model can roll all three distinct compatible mechanisms
+PASS: mechanism tags reject non-weapons and incompatible split ammunition
+PASS: save loading preserves legal mechanisms and removes invalid mechanism IDs
+Loading resource: res://tests/world_checks.gd remapped: res://tests/world_checks.gd
+Completed load for: 'res://tests/world_checks.gd' remapped 'res://tests/world_checks.gd' at thread -1
+PASS: world chunk generation is deterministic
+PASS: world chunk cache stays bounded on a huge map
+PASS: world navigation respects outer bounds
+PASS: continuous world spans 65536 by 65536 units
+PASS: cross-chunk destination receives a path
+PASS: segmented path reaches distant target without loading a scene
+PASS: pathfinding avoids blocked terrain across chunk boundaries
+PASS: movement records distance and multiple explored chunks
+PASS: exploration does not fight enemies elsewhere on the map
+PASS: skill cannot damage a non-existent map encounter
+PASS: walking to a resource collects it
+PASS: collected map resource cannot be claimed twice
+PASS: outpost activation repairs armor and rewards stars
+PASS: approaching a map enemy starts an encounter
+PASS: victory removes that specific map enemy
+PASS: path movement can be commanded during combat
+PASS: mech moves and fires during the same combat interval
+PASS: moving-fire count requires real displacement in the firing frame
+PASS: auto target acquisition does not cancel held movement
+PASS: outside attack range neither side deals phantom damage
+PASS: walking out of leash range drops target and records armor
+PASS: re-engaging preserves enemy damage
+PASS: victory does not interrupt held movement
+PASS: full-energy skill fires automatically for one-hand play
+PASS: out-of-range target yields to a nearby enemy automatically
+PASS: retreat leaves combat and provides a safe escape interval
+PASS: world save restores position and one-time collection state
+PASS: malformed world save is ignored safely
+PASS: idle patrol chooses a nearby unvisited objective
+Loading resource: res://tests/enemy_ai_checks.gd remapped: res://tests/enemy_ai_checks.gd
+Completed load for: 'res://tests/enemy_ai_checks.gd' remapped 'res://tests/enemy_ai_checks.gd' at thread -1
+PASS: enemy detects player inside warning radius and starts pursuit
+PASS: pursuit physically closes distance to the player
+PASS: targeting and map use the same moving enemy position
+PASS: pursuer fires after entering weapon range
+PASS: ranged enemy stops before overlapping player
+PASS: enemy resumes chasing a moving player
+PASS: enemy abandons pursuit outside its home leash
+PASS: enemy walks home and resumes guarding
+PASS: returning enemies do not keep firing at distant player
+PASS: returning home preserves damage already dealt
+PASS: obstacle scenario blocks direct line of fire
+PASS: pursuer routes around terrain without walking through it
+PASS: pursuer gets around cover before attacking
+PASS: multiple guard posts exist within shared warning range
+PASS: multiple enemies can pursue independently of selected target
+PASS: multiple pursuers have independent attack cooldowns
+PASS: moving enemies restore their live position from save
+PASS: player defeat stops damage and releases target lock
+PASS: enemies disengage and return when player is down
+Loading resource: res://tests/parts_checks.gd remapped: res://tests/parts_checks.gd
+Completed load for: 'res://tests/parts_checks.gd' remapped 'res://tests/parts_checks.gd' at thread -1
+PASS: starter kit equips six slots including both weapons and a backpack
+PASS: all fifteen blueprints roll one to three distinct affixes within quality ranges
+PASS: transferring a part removes its previous owner without duplication
+PASS: equipped parts cannot be dismantled
+PASS: unequipped part dismantles once with quality-scaled reward
+PASS: invalid part and slot IDs are rejected
+PASS: crafting charges both currencies exactly and stores the rolled item
+PASS: unaffordable crafting cannot change resources or inventory
+PASS: every fifth victory guarantees an epic part drop
+PASS: full inventory blocks crafting before currency deduction
+PASS: full inventory converts a guaranteed boss part to alloy without losing victory rewards
+PASS: weapon inherent stats, affix, rail range and slower interval affect live combat
+PASS: removing a part removes its combat effects immediately
+PASS: overdrive core shortens the actual firing interval
+PASS: burst weapon starts with one real shot and two pending shots
+PASS: burst weapon emits three separately timed damage events
+PASS: each burst round emits a matching visual effect event
+PASS: lethal burst cancels queued rounds instead of hitting the next enemy
+PASS: reactive armor applies passive reduction and timed shield to real incoming damage
+PASS: reactive shield cannot repeatedly block during cooldown
+PASS: reactive shield recharges through combat time
+PASS: re-equipping a shield cannot reset its cooldown
+PASS: fortress armor trades speed for additional damage reduction
+PASS: precision core grants its stated critical chance
+PASS: nanite armor actually repairs health over time
+PASS: synchronization core adds skill energy every second
+PASS: effective stat caps prevent invulnerability and unbounded fire rate
+PASS: critical attacks deal doubled damage and emit critical visuals
+PASS: hover drive changes real movement speed
+PASS: pulse drive produces a real timed movement burst
+PASS: tread chassis trades movement speed for reduction
+PASS: plasma damages the actual primary and only nearby secondary enemies
+PASS: plasma combat emits its distinct explosion visual
+PASS: splash kills award victory without resetting the primary target health
+PASS: queued burst rounds cannot retarget another enemy
+PASS: splash also hits visible guards outside the active AI cache
+PASS: disk roundtrip preserves exact rolls, IDs and per-mech loadouts
+PASS: legacy saves receive a starter kit without resetting game progress
+PASS: malformed rolls, duplicate IDs and duplicated equipment are sanitized
+PASS: next unique ID is rebuilt from stored items
+Loading resource: res://scenes/main.tscn remapped: res://scenes/main.tscn
+Loading resource: res://scripts/main.gd remapped: res://scripts/main.gd
+Loading resource: res://assets/free/ui/button.png remapped: res://assets/free/ui/button.png
+Loading resource: res://.godot/imported/button.png-55cfd44c38d32fa01c35bf579df10ced.ctex remapped: res://.godot/imported/button.png-55cfd44c38d32fa01c35bf579df10ced.ctex
+Completed load for: 'res://assets/free/ui/button.png' remapped 'res://assets/free/ui/button.png' at thread -1
+Loading resource: res://assets/free/ui/button_primary.png remapped: res://assets/free/ui/button_primary.png
+Loading resource: res://.godot/imported/button_primary.png-4c2864e3af9281a6a9ab35afdf90b76b.ctex remapped: res://.godot/imported/button_primary.png-4c2864e3af9281a6a9ab35afdf90b76b.ctex
+Completed load for: 'res://assets/free/ui/button_primary.png' remapped 'res://assets/free/ui/button_primary.png' at thread -1
+Loading resource: res://assets/free/icons/target.png remapped: res://assets/free/icons/target.png
+Loading resource: res://.godot/imported/target.png-46cf9b47eaa83534f387ea8d52cde2e1.ctex remapped: res://.godot/imported/target.png-46cf9b47eaa83534f387ea8d52cde2e1.ctex
+Completed load for: 'res://assets/free/icons/target.png' remapped 'res://assets/free/icons/target.png' at thread -1
+Loading resource: res://assets/free/icons/wrench.png remapped: res://assets/free/icons/wrench.png
+Loading resource: res://.godot/imported/wrench.png-5d7ef65b91e4951cf3a9cdf9fe0857e9.ctex remapped: res://.godot/imported/wrench.png-5d7ef65b91e4951cf3a9cdf9fe0857e9.ctex
+Completed load for: 'res://assets/free/icons/wrench.png' remapped 'res://assets/free/icons/wrench.png' at thread -1
+Loading resource: res://assets/free/icons/singleplayer.png remapped: res://assets/free/icons/singleplayer.png
+Loading resource: res://.godot/imported/singleplayer.png-8879337123b09d21626db822d70e1ee4.ctex remapped: res://.godot/imported/singleplayer.png-8879337123b09d21626db822d70e1ee4.ctex
+Completed load for: 'res://assets/free/icons/singleplayer.png' remapped 'res://assets/free/icons/singleplayer.png' at thread -1
+Loading resource: res://assets/free/icons/star.png remapped: res://assets/free/icons/star.png
+Loading resource: res://.godot/imported/star.png-00323656b49a7eb6dcb352843dbfcac4.ctex remapped: res://.godot/imported/star.png-00323656b49a7eb6dcb352843dbfcac4.ctex
+Completed load for: 'res://assets/free/icons/star.png' remapped 'res://assets/free/icons/star.png' at thread -1
+Loading resource: res://assets/free/icons/medal1.png remapped: res://assets/free/icons/medal1.png
+Loading resource: res://.godot/imported/medal1.png-b9dccfaefd074628f68f0123999053f1.ctex remapped: res://.godot/imported/medal1.png-b9dccfaefd074628f68f0123999053f1.ctex
+Completed load for: 'res://assets/free/icons/medal1.png' remapped 'res://assets/free/icons/medal1.png' at thread -1
+Loading resource: res://assets/free/icons/gear.png remapped: res://assets/free/icons/gear.png
+Loading resource: res://.godot/imported/gear.png-cf186b8576cdd90d73d097b7f70d6f9c.ctex remapped: res://.godot/imported/gear.png-cf186b8576cdd90d73d097b7f70d6f9c.ctex
+Completed load for: 'res://assets/free/icons/gear.png' remapped 'res://assets/free/icons/gear.png' at thread -1
+Loading resource: res://assets/free/icons/audioOn.png remapped: res://assets/free/icons/audioOn.png
+Loading resource: res://.godot/imported/audioOn.png-a44bee431135781ad2eb9a2f14e8ff6f.ctex remapped: res://.godot/imported/audioOn.png-a44bee431135781ad2eb9a2f14e8ff6f.ctex
+Completed load for: 'res://assets/free/icons/audioOn.png' remapped 'res://assets/free/icons/audioOn.png' at thread -1
+Loading resource: res://assets/free/icons/audioOff.png remapped: res://assets/free/icons/audioOff.png
+Loading resource: res://.godot/imported/audioOff.png-e6fa41ae3ab546d019a41b5f04a92226.ctex remapped: res://.godot/imported/audioOff.png-e6fa41ae3ab546d019a41b5f04a92226.ctex
+Completed load for: 'res://assets/free/icons/audioOff.png' remapped 'res://assets/free/icons/audioOff.png' at thread -1
+Loading resource: res://assets/free/icons/question.png remapped: res://assets/free/icons/question.png
+Loading resource: res://.godot/imported/question.png-bd12b1e3e32d0cc2a684325ed4399f79.ctex remapped: res://.godot/imported/question.png-bd12b1e3e32d0cc2a684325ed4399f79.ctex
+Completed load for: 'res://assets/free/icons/question.png' remapped 'res://assets/free/icons/question.png' at thread -1
+Loading resource: res://assets/fonts/NotoSansSC.otf remapped: res://assets/fonts/NotoSansSC.otf
+Loading resource: res://.godot/imported/NotoSansSC.otf-3e84daac75282ad29409aea0e6fc92e1.fontdata remapped: res://.godot/imported/NotoSansSC.otf-3e84daac75282ad29409aea0e6fc92e1.fontdata
+Completed load for: 'res://assets/fonts/NotoSansSC.otf' remapped 'res://assets/fonts/NotoSansSC.otf' at thread -1
+Loading resource: res://assets/pilots/pilots.png remapped: res://assets/pilots/pilots.png
+Loading resource: res://.godot/imported/pilots.png-f48b446bbee6cab766d168c3d86fc3bf.ctex remapped: res://.godot/imported/pilots.png-f48b446bbee6cab766d168c3d86fc3bf.ctex
+Completed load for: 'res://assets/pilots/pilots.png' remapped 'res://assets/pilots/pilots.png' at thread -1
+Loading resource: res://assets/free/background/moon.png remapped: res://assets/free/background/moon.png
+Loading resource: res://.godot/imported/moon.png-68b520a95fc8b7ea58ae08f3bba6dfd1.ctex remapped: res://.godot/imported/moon.png-68b520a95fc8b7ea58ae08f3bba6dfd1.ctex
+Completed load for: 'res://assets/free/background/moon.png' remapped 'res://assets/free/background/moon.png' at thread -1
+Loading resource: res://assets/free/background/cloud.png remapped: res://assets/free/background/cloud.png
+Loading resource: res://.godot/imported/cloud.png-cbd816f212f435616cb66d1052ed8004.ctex remapped: res://.godot/imported/cloud.png-cbd816f212f435616cb66d1052ed8004.ctex
+Completed load for: 'res://assets/free/background/cloud.png' remapped 'res://assets/free/background/cloud.png' at thread -1
+Loading resource: res://assets/free/background/haze.png remapped: res://assets/free/background/haze.png
+Loading resource: res://.godot/imported/haze.png-e5b733e127e1aa4d88dd4ab0c883ae4a.ctex remapped: res://.godot/imported/haze.png-e5b733e127e1aa4d88dd4ab0c883ae4a.ctex
+Completed load for: 'res://assets/free/background/haze.png' remapped 'res://assets/free/background/haze.png' at thread -1
+Loading resource: res://assets/free/ui/crosshair.png remapped: res://assets/free/ui/crosshair.png
+Loading resource: res://.godot/imported/crosshair.png-9f9b76ed078f3b3d068f222e4c85b0cd.ctex remapped: res://.godot/imported/crosshair.png-9f9b76ed078f3b3d068f222e4c85b0cd.ctex
+Completed load for: 'res://assets/free/ui/crosshair.png' remapped 'res://assets/free/ui/crosshair.png' at thread -1
+Completed load for: 'res://scripts/main.gd' remapped 'res://scripts/main.gd' at thread -1
+Completed load for: 'res://scenes/main.tscn' remapped 'res://scenes/main.tscn' at thread -1
+Loading resource: res://tests/base_checks.gd remapped: res://tests/base_checks.gd
+Completed load for: 'res://tests/base_checks.gd' remapped 'res://tests/base_checks.gd' at thread -1
+PASS: armor depletion recalls the mech to its carrier recovery point
+PASS: carrier recovery cancels held input, route and patrol
+PASS: recall preserves damage on the abandoned enemy
+PASS: defeat opens the carrier facility hub
+PASS: launch is blocked while carrier repair is incomplete
+PASS: reload preserves the carrier recovery state
+PASS: repair completes with full armor inside the carrier
+PASS: docked mechs are protected from enemy damage
+PASS: carrier stays stationary and does not acquire battlefield targets
+PASS: departure launches from the carrier rather than the death location
+PASS: field access to facilities asks the player to return to the carrier
+PASS: manual recall unlocks the carrier facilities at the recovery point
+PASS: portrait navigation page 0 builds
+PASS: portrait navigation page 1 builds
+PASS: portrait navigation page 2 builds
+PASS: portrait navigation page 3 builds
+PASS: portrait navigation page 4 builds
+Loading resource: res://tests/movement_block_checks.gd remapped: res://tests/movement_block_checks.gd
+Completed load for: 'res://tests/movement_block_checks.gd' remapped 'res://tests/movement_block_checks.gd' at thread -1
+PASS: movement reproduction locates a real obstacle next to open terrain
+PASS: holding movement into terrain reports the exact blocking collision cell
+PASS: terrain blocking does not cancel the held movement input
+PASS: blocked movement gets an obstacle hint rather than a moving label
+PASS: repair countdown takes priority over stale collision information
+PASS: depleted armor deliberately suspends movement during repair
+PASS: repair respawns at the carrier and clears the held direction
+PASS: changing direction immediately resumes movement along the obstacle
+PASS: release clears the obstacle indication
+PASS: floating joystick starts at any screen point (80.0, 100.0)
+PASS: press without drag does not move the mech
+PASS: thumb jitter is suppressed by the dead zone
+PASS: floating stick reaches bounded full speed
+PASS: lifting thumb stops movement without starting a path
+PASS: floating joystick starts at any screen point (620.0, 870.0)
+PASS: press without drag does not move the mech
+PASS: thumb jitter is suppressed by the dead zone
+PASS: floating stick reaches bounded full speed
+PASS: lifting thumb stops movement without starting a path
+PASS: floating joystick starts at any screen point (360.0, 500.0)
+PASS: press without drag does not move the mech
+PASS: thumb jitter is suppressed by the dead zone
+PASS: floating stick reaches bounded full speed
+PASS: lifting thumb stops movement without starting a path
+PASS: second finger switches to camera control without movement
+PASS: two-finger drag pans the map
+PASS: remaining pinch finger cannot become a stuck joystick
+PASS: recenter restores camera follow
+PASS: map zoom upper bound is enforced
+PASS: map zoom lower bound is enforced
+PASS: release over another control cannot leave the joystick stuck
+PASS: focus loss clears all movement input
+PASS: opening a modal cancels held joystick input
+PASS: mission modal opens
+PASS: modal closes without blocking navigation
+PASS: parts inventory modal builds
+PASS: part detail and comparison build for 蜂群连射炮
+PASS: part detail and comparison build for 棱镜反应装甲
+PASS: part detail and comparison build for 离子悬浮引擎
+PASS: part detail and comparison build for 极光同步核心
+PASS: part detail and comparison build for 苍穹轨道炮
+PASS: part detail and comparison build for 脉冲矢量喷口
+PASS: part detail and comparison build for 霜翼散热背包
+PASS: part detail and comparison build for 蜂群连射炮
+PASS: part detail and comparison build for 鹰眼演算核心
+PASS: part detail and comparison build for 鹰眼演算核心
+Loading resource: res://tests/rig_checks.gd remapped: res://tests/rig_checks.gd
+Completed load for: 'res://tests/rig_checks.gd' remapped 'res://tests/rig_checks.gd' at thread -1
+PASS: six-slot starter has independent weapons and a real cooling backpack
+PASS: one weapon can change hands without being duplicated
+PASS: armor cannot occupy the secondary weapon slot
+PASS: four-slot saves migrate without rerolling items or changing old preset references
+PASS: load limit can fail independently of sufficient power
+PASS: dual energy weapons can exceed reactor power while still meeting the weight limit
+PASS: battery backpack solves power pressure while giving up cooler output
+PASS: departure rejects an invalid rig before moving the player
+PASS: changing to low-power high-load tracks makes the dual energy rig launchable
+PASS: overheat never prevents locomotion
+PASS: left burst starts on its own cooldown
+PASS: independent rail cooldown advances while the other hand is bursting
+PASS: only the weapon whose own range reaches the target fires
+PASS: overheat extends cooldowns instead of emitting normal-rate shots
+PASS: overheat hysteresis stays active above the recovery threshold
+PASS: cooling below sixty restores normal fire rate
+PASS: heat hysteresis and the independent secondary weapon survive disk reload
+PASS: part swapping cannot clear heat or bypass overheat
+PASS: carrier maintenance clears thermal state
+Loading resource: res://tests/build_checks.gd remapped: res://tests/build_checks.gd
+Completed load for: 'res://tests/build_checks.gd' remapped 'res://tests/build_checks.gd' at thread -1
+PASS: presets protect referenced parts even while unequipped
+PASS: applying a preset restores its exact unique items and transfers ownership
+PASS: preset references and dismantle protection survive save roundtrip
+PASS: invalid presets cannot partially mutate current equipment
+PASS: training scenario 0 measures actual projectile hits
+PASS: training scenario 1 measures actual projectile hits
+PASS: training scenario 2 measures actual projectile hits
+PASS: training measures survival pressure without affecting rewards, progress or real armor
+PASS: training facility opens from the carrier
+PASS: preset archive opens from the carrier
+CHECKS: 224 passed, 0 failed
+WARNING: 4 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 2 resources still in use at exit.
+   at: clear (core/io/resource.cpp:817)
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"
+Leaked instance: OggPacketSequence:9223372072439252450 - Reference count: 3
+Leaked instance: AudioStreamOggVorbis:9223372072456029667 - Reference count: 1
+Leaked instance: AudioStreamPlaybackOggVorbis:9223372198805243734 - Reference count: 1
+Leaked instance: OggPacketSequencePlayback:9223372198822020960 - Reference count: 1
+Hint: Leaked instances typically happen when nodes are removed from the scene tree (with `remove_child()`) but not freed (with `free()` or `queue_free()`).
+Resource still in use: res://assets/free/audio/resonance.ogg::OggPacketSequence_m0hru (OggPacketSequence)
+Resource still in use: res://assets/free/audio/resonance.ogg (AudioStreamOggVorbis)
+Orphan StringName: Master (static: 0, total: 2)
+StringName: 1 unclaimed string names at exit.

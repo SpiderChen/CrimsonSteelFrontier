@@ -1,0 +1,59 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: tests never write player save
+PASS: only the industrial region is available before a regional first clear
+PASS: locked regions, invalid routes and off-region farming targets cannot launch
+PASS: locked named blueprints cannot be crafted or charge resources
+PASS: unlocked region 0 launches its full real route with a legal farm target
+REGION ROUTE 0 outcome=cleared nodes=6 seconds=69.4 hp=100.0 parts=12
+PASS: region 0 completes every node, real enemies, events and its full boss automatically
+PASS: regional first clear unlocks its named blueprint, samples and durable progress
+PASS: the next region unlocks only after the preceding first clear
+PASS: first clear grants exactly one epic named component with its mechanism occupying the normal slot
+PASS: return from a route preserves prior overworld resources and wounded enemies
+PASS: unlocked region 1 launches its full real route with a legal farm target
+REGION ROUTE 1 outcome=cleared nodes=6 seconds=50.6 hp=100.0 parts=12
+PASS: region 1 completes every node, real enemies, events and its full boss automatically
+PASS: regional first clear unlocks its named blueprint, samples and durable progress
+PASS: the next region unlocks only after the preceding first clear
+PASS: first clear grants exactly one epic named component with its mechanism occupying the normal slot
+PASS: return from a route preserves prior overworld resources and wounded enemies
+PASS: unlocked region 2 launches its full real route with a legal farm target
+REGION ROUTE 2 outcome=cleared nodes=6 seconds=59.3 hp=100.0 parts=11
+PASS: region 2 completes every node, real enemies, events and its full boss automatically
+PASS: regional first clear unlocks its named blueprint, samples and durable progress
+PASS: the next region unlocks only after the preceding first clear
+PASS: first clear grants exactly one epic named component with its mechanism occupying the normal slot
+PASS: return from a route preserves prior overworld resources and wounded enemies
+PASS: unlocked region 3 launches its full real route with a legal farm target
+REGION ROUTE 3 outcome=cleared nodes=6 seconds=62.7 hp=100.0 parts=12
+PASS: region 3 completes every node, real enemies, events and its full boss automatically
+PASS: regional first clear unlocks its named blueprint, samples and durable progress
+PASS: the next region unlocks only after the preceding first clear
+PASS: first clear grants exactly one epic named component with its mechanism occupying the normal slot
+PASS: return from a route preserves prior overworld resources and wounded enemies
+PASS: the salvage branch launches with an independent selected torso target
+PASS: repeat salvage clear awards node/cache/boss samples without granting another first-clear bonus
+PASS: repeat regional boss gives the selected model as a genuine epic drop
+PASS: first-clear blueprints become craftable at the normal exact recipe price
+PASS: regional samples exchange for an epic named component at the displayed fixed price
+PASS: off-region exchange requests cannot consume samples
+PASS: a directed sample exchange stores its complete rare component in overflow when inventory is full
+PASS: clearing an actual combat node reaches the selected route's weapon-cache event
+PASS: opening the cache grants the directed rare item and raises the actual alert level
+PASS: stale or repeated event submissions cannot duplicate equipment or bounty
+PASS: one alert level adds a real enemy to the following combat node
+PASS: the same cache alert also adds a real timed boss artillery warning
+PASS: combat failure loses only the unbanked bounty and returns the damaged mech to its carrier
+PASS: failure preserves every acquired component, prior resource and regional sample
+PASS: cooling-system choice changes real heat dissipation and actual movement speed
+PASS: mid-route disk reload restores phase, event effects, loot target and automatic combat without advancing paused nodes
+PASS: wounded enemies retain health and their real regional combat profile after reload
+PASS: temporary cooling and movement restrictions expire after the promised two combat nodes
+PASS: voluntary extraction banks the full earned bounty exactly once
+PASS: repeated extraction cannot duplicate a settled bounty
+PASS: region selection, locked/unlocked details, samples, blueprints and live route controls build
+PASS: named rail blueprint changes actual shot damage and cooldown with its stated tradeoff
+PASS: named orbital reactor provides real supply, conversion and its precision trait without an extra mechanism slot
+PASS: malformed saved node phases cannot skip directly to a boss reward state
+CHECKS: 52 passed, 0 failed

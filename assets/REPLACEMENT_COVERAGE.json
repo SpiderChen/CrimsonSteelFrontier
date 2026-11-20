@@ -1,0 +1,210 @@
+{
+  "objective": "Replace all game artwork with a cohesive commercial-game presentation; prefer existing free commercial-use assets",
+  "categories": [
+    {
+      "id": "pilots",
+      "source": "assets/pilots/pilots.png",
+      "items_or_frames": 3,
+      "consumers": [
+        "scripts/main.gd",
+        "scripts/pilot_ui.gd"
+      ]
+    },
+    {
+      "id": "player_mechs",
+      "source": "assets/generated/vehicles/",
+      "items_or_frames": 3,
+      "consumers": [
+        "scripts/mech_art.gd",
+        "scripts/training.gd"
+      ]
+    },
+    {
+      "id": "carrier",
+      "source": "assets/generated/vehicles/carrier-ark.png",
+      "items_or_frames": 1,
+      "consumers": [
+        "scripts/carrier.gd",
+        "scripts/world_map.gd",
+        "scripts/hud_ui.gd"
+      ]
+    },
+    {
+      "id": "enemy_roles_and_drone",
+      "source": "enemies",
+      "items_or_frames": 4,
+      "consumers": [
+        "scripts/world_map.gd",
+        "scripts/training.gd"
+      ]
+    },
+    {
+      "id": "four_region_bosses",
+      "source": "bosses",
+      "items_or_frames": 4,
+      "consumers": [
+        "scripts/world_map.gd"
+      ]
+    },
+    {
+      "id": "terrain_and_road_variants",
+      "source": "terrain",
+      "items_or_frames": 16,
+      "consumers": [
+        "scripts/world_map.gd"
+      ]
+    },
+    {
+      "id": "region_buildings",
+      "source": "buildings",
+      "items_or_frames": 4,
+      "consumers": [
+        "scripts/asset_visuals.gd"
+      ]
+    },
+    {
+      "id": "region_props",
+      "source": "props",
+      "items_or_frames": 4,
+      "consumers": [
+        "scripts/asset_visuals.gd"
+      ]
+    },
+    {
+      "id": "supplies_cache_cooling_beacon",
+      "source": "facilities",
+      "items_or_frames": 4,
+      "consumers": [
+        "scripts/asset_visuals.gd"
+      ]
+    },
+    {
+      "id": "equipment_inventory_workshop_and_held_weapons",
+      "source": "equipment",
+      "items_or_frames": 25,
+      "consumers": [
+        "scripts/main.gd",
+        "scripts/manufacturing_ui.gd",
+        "scripts/recycle_ui.gd",
+        "scripts/mech_art.gd",
+        "scripts/melee.gd",
+        "scripts/hand_shield.gd"
+      ]
+    },
+    {
+      "id": "muzzle_hit_explosion_melee",
+      "source": "fx-kinetic",
+      "items_or_frames": 16,
+      "consumers": [
+        "scripts/attack_visuals.gd",
+        "scripts/world_map.gd",
+        "scripts/training.gd",
+        "scripts/mech_art.gd"
+      ]
+    },
+    {
+      "id": "tracer_rail_plasma_missile",
+      "source": "fx-energy",
+      "items_or_frames": 16,
+      "consumers": [
+        "scripts/attack_visuals.gd",
+        "scripts/world_map.gd",
+        "scripts/training.gd"
+      ]
+    },
+    {
+      "id": "shield_repair_pilot_skills_counter",
+      "source": [
+        "fx-shield",
+        "fx-repair",
+        "fx-scarlet",
+        "fx-overcharge"
+      ],
+      "items_or_frames": 4,
+      "consumers": [
+        "scripts/attack_visuals.gd",
+        "scripts/pilot_runtime.gd",
+        "scripts/world_map.gd",
+        "scripts/training.gd"
+      ]
+    },
+    {
+      "id": "hangar_training_and_carrier_backdrop",
+      "source": "hangar",
+      "items_or_frames": 1,
+      "consumers": [
+        "scripts/battlefield.gd",
+        "scripts/training.gd",
+        "scripts/hud_ui.gd"
+      ]
+    },
+    {
+      "id": "interface_cards_navigation_and_resource_icons",
+      "source": "assets/free/",
+      "items_or_frames": 22,
+      "consumers": [
+        "scripts/main.gd",
+        "scripts/hud_ui.gd",
+        "scripts/hud_meter.gd",
+        "scripts/interface_theme.gd"
+      ]
+    },
+    {
+      "id": "sound_effects",
+      "source": "assets/free/audio/",
+      "items_or_frames": 36,
+      "consumers": [
+        "scripts/sfx.gd"
+      ]
+    },
+    {
+      "id": "recruitment_animation",
+      "source": [
+        "assets/free/icons/star.png",
+        "assets/free/ui/crosshair.png",
+        "assets/pilots/pilots.png",
+        "assets/free/audio/reward.ogg"
+      ],
+      "consumers": [
+        "scripts/recruit_sequence.gd"
+      ],
+      "behavior": [
+        "charge",
+        "signal lock",
+        "staggered portrait reveal",
+        "skip to committed results",
+        "single confirmation"
+      ]
+    }
+  ],
+  "geometry_retained_for": [
+    "touch controls",
+    "health and resource gauges",
+    "exact collision boundaries",
+    "attack and boss warnings",
+    "selection indicators",
+    "fog of war"
+  ],
+  "generated_source_records": [
+    "assets/generated/vehicles/generation.json",
+    "assets/generated/production/generation.json"
+  ],
+  "verification": {
+    "status": "interface revision implemented; full visual acceptance still pending",
+    "source_images": "manually inspected",
+    "limitation": "Headless draw calls do not prove final appearance; native GUI and browser launches abort in the current environment.",
+    "regression": {
+      "passed": 646,
+      "failed": 0,
+      "log": ".local/polish-regression-output.log"
+    },
+    "production_art": {
+      "passed": 219,
+      "failed": 0,
+      "log": ".local/polish-production-final-output.log"
+    },
+    "packaging": "Web export succeeded; standard and compressed hosting PCK bytes match",
+    "browser_probe": ".local/polish-browser-probe.log (SIGABRT at launch)"
+  },
+  "asset_policy": "Prefer suitable existing free commercial-use assets; retain generated artwork where matching assets are unavailable"
+}

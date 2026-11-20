@@ -1,0 +1,18 @@
+CLOUD BROWSER PASS: two independent browsers register/login, transfer a full bag and pilot progress, preserve a real upgrade and reject stale overwrite
+CLOUD BROWSER PASS: server-calculated 48-hour/36-effective-hour rewards ignore client Date, create real regional gear/research/samples, preserve rares in overflow and cannot be claimed twice across devices
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
++ [
++   'ERROR: Parse JSON failed. Error at line 0: Unknown error getting token'
++ ]
+- []
+
+    at /Users/spiderchan/Desktop/code-source/crimson-front/tests/cloud_browser.cjs:100:10 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: [Array],
+  expected: [],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}

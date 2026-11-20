@@ -1,0 +1,39 @@
+{
+  "tool": "built-in image_gen",
+  "created": "2026-11-11",
+  "license_note": "Original AI-generated project art requested by the user. Not a CC0 asset pack.",
+  "assets": [
+    {
+      "file": "mech-crimson.png",
+      "prompt": "Use case: stylized-concept. Asset type: production transparent PNG character sprite for CRIMSON FRONT, a 2D mecha game. Create exactly ONE original full-body combat mecha, a clearly legged humanoid piloted machine, on a genuinely transparent alpha background. Premium anime-mechanical game art with painted metal shading and crisp readable silhouette, detailed layered armor panels, pistons, mechanical joints, restrained surface wear, small luminous reactor and visor. Three-quarter front view turned slightly toward image RIGHT, feet along same ground plane, upright balanced ready stance, both arms bent slightly forward at waist height, empty gripping hands for runtime weapon attachments. Full subject including antennae and both feet completely in frame, generous empty margins on all sides, centered. No ground, no environment, no cast shadow, no smoke, no text, no words, no numbers, no insignia, no logos, no watermark, no weapons held, no copied franchise designs. Match a 2D mobile sprite around 120px tall but allow rich detail for large hangar preview. Neutral upper-left light with clean separation from a dark game background. Portrait square canvas. Subject: RX-07 Scarlet Kite, athletic medium-weight bipedal mecha, crimson red armor on dark graphite skeleton, ivory shoulder highlights, luminous cyan eyes, compact turbine cooling vents behind shoulders, short angular shoulder fins, sturdy boots, distinct original helmet with a single short rear antenna. Red is the dominant color. Overall silhouette taller than wide.",
+      "sha256": "ad2c1ea214b62e576b089fc0306c870fb9529d7e21852c011256eea47ba29d57",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true
+    },
+    {
+      "file": "mech-nightingale.png",
+      "prompt": "Use case: stylized-concept. Asset type: production transparent PNG character sprite for CRIMSON FRONT, a 2D mecha game. Create exactly ONE original full-body combat mecha, a clearly legged humanoid piloted machine, on a genuinely transparent alpha background. Premium anime-mechanical game art with painted metal shading and crisp readable silhouette, detailed layered armor panels, pistons, mechanical joints, restrained surface wear, small luminous reactor and visor. Three-quarter front view turned slightly toward image RIGHT, feet along same ground plane, upright balanced ready stance, both arms bent slightly forward at waist height, empty gripping hands for runtime weapon attachments. Full subject including antennae and both feet completely in frame, generous empty margins on all sides, centered. No ground, no environment, no cast shadow, no smoke, no text, no words, no numbers, no insignia, no logos, no watermark, no weapons held, no copied franchise designs. Match a 2D mobile sprite around 120px tall but allow rich detail for large hangar preview. Neutral upper-left light with clean separation from a dark game background. Portrait square canvas. Subject: SR-02 Nightingale, slender long-range precision bipedal mecha with deep violet armor, graphite understructure, pale lavender edge panels, small amber visor, streamlined long shins, narrow angular shoulders, compact sensor mast and folded long-range targeting equipment on upper back. Restrained original industrial design, violet is the dominant color. Overall silhouette taller than wide.",
+      "sha256": "55ccb9cad0bfbad23c56afe6f9c56cc11e1551b0eea46b89b023abf2181a60d3",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true
+    },
+    {
+      "file": "mech-falcon.png",
+      "prompt": "Use case: stylized-concept. Asset type: production transparent PNG character sprite for CRIMSON FRONT, a 2D mecha game. Create exactly ONE original full-body combat mecha, a clearly legged humanoid piloted machine, on a genuinely transparent alpha background. Premium anime-mechanical game art with painted metal shading and crisp readable silhouette, detailed layered armor panels, pistons, mechanical joints, restrained surface wear, small luminous reactor and visor. Three-quarter front view turned slightly toward image RIGHT, feet along same ground plane, upright balanced ready stance, both arms bent slightly forward at waist height, empty gripping hands for runtime weapon attachments. Full subject including antennae and both feet completely in frame, generous empty margins on all sides, centered. No ground, no environment, no cast shadow, no smoke, no text, no words, no numbers, no insignia, no logos, no watermark, no weapons held, no copied franchise designs. Match a 2D mobile sprite around 120px tall but allow rich detail for large hangar preview. Neutral upper-left light with clean separation from a dark game background. Portrait square canvas. Subject: SP-09 White Falcon, heavy defensive bipedal mecha with pearl white and ice blue armor, dark navy mechanical joints, luminous cyan reactor, broad reinforced shoulders, thick armored forearms, sturdy heavy armored legs with large feet, compact rear shield-energy generator. White is the dominant color. Overall silhouette taller than wide.",
+      "sha256": "436fde79ee4002848bb1483d1a86ade6d722d00a24d066092df00e01ae873af7",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true
+    },
+    {
+      "file": "carrier-ark.png",
+      "prompt": "Use case: stylized-concept. Asset type: production transparent PNG capital warship sprite for CRIMSON FRONT 2D mecha game. Exactly ONE original enormous airborne sci-fi aircraft-carrier battleship, clearly a full capital ship and NOT a fighter or aircraft, fully isolated on a genuine transparent alpha background. Wide landscape composition, centered, full hull completely within frame with generous empty margins. Three-quarter elevated orthographic game view, bow pointing toward image RIGHT, stern at image LEFT, both top deck and near side visible. Broad long armored graphite and desaturated steel-blue hull, a long inset flight deck with subtle ivory landing markings but no letters or numbers, stacked armored side hull, crimson trim and fin accents, clear armored command bridge, several distinct heavy railgun turrets, docking recesses, segmented service bays, four cyan aft engine apertures WITHOUT exhaust flames, restrained warm cabin lights. Premium anime-mechanical painted game sprite, precise mechanical hard-surface detail, crisp clean readable silhouette, strong large armor forms, consistent neutral upper-left light. Grounded military fleet aesthetic. No ground, no background scene, no water, no clouds, no shadow, no text, no logos, no watermark. Original design with no recognizable franchise ships. The complete capital ship occupies most of the canvas, horizontal silhouette approximately 2.4 times wider than tall.",
+      "sha256": "4be417a521e4ec2d426865e98972b27a361d0ce33c6718cc3cdd00b49e30abaf",
+      "width": 1942,
+      "height": 809,
+      "alpha": true
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "tool": "built-in image_gen",
+  "created": "2026-11-11",
+  "source_note": "Original generated production game art; separate from CC0 libraries.",
+  "assets": [
+    {
+      "file": "enemies.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: production 2D sprite atlas for CRIMSON FRONT. Reference images are ONLY a reference for painted industrial anime-mecha art direction, realistic layered worn metal, graphite/steel/crimson/cyan palette and crisp readable outlines; do not copy the reference composition. Orthographic three-quarter game rendering, upper-left light. No text, labels, numbers, borders, logos or watermark. Strict exact uniform 2 by 2 grid with four equally sized square cells. Exactly one complete centered isolated object in each cell, generous transparent padding, no overlap between cells. Genuine transparent alpha background everywhere outside objects. All objects entirely within their own cells. Cell order reading left to right top to bottom: (1) armored enemy guard biped mech, dark crimson blocky military armor, orange visor, integrated compact rifle, threatening industrial silhouette; (2) fast hostile rusher biped mech, lean orange and charcoal armor, reverse joint legs, twin short arm weapons, aggressive ready pose; (3) hostile mobile artillery crawler with four tread pods, swiveling armored turret, long cannon pointing RIGHT, dark ochre metal, red optic; (4) floating maintenance combat drone, violet armored hexagonal body, four small thruster pods, short repair tools and glowing pink sensor. Both mechs face slightly RIGHT in the same perspective as the original red mech. Drone and crawler viewed at matching elevated angle.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c9970f5e0b2c0d26b7118d10c431de3078aca14be02d48d59b87603b9b902d91"
+    },
+    {
+      "file": "bosses.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: production 2D sprite atlas for CRIMSON FRONT. Reference images are ONLY a reference for painted industrial anime-mecha art direction, realistic layered worn metal, graphite/steel/crimson/cyan palette and crisp readable outlines; do not copy the reference composition. Orthographic three-quarter game rendering, upper-left light. No text, labels, numbers, borders, logos or watermark. Strict exact uniform 2 by 2 grid with four equally sized square cells. Exactly one complete centered isolated object in each cell, generous transparent padding, no overlap between cells. Genuine transparent alpha background everywhere outside objects. All objects entirely within their own cells. Four different giant enemy boss platforms, all facing image RIGHT in elevated three-quarter orthographic view. Top left: rust-red industrial mining siege platform with huge twin tank treads, armored excavator nose, round reactor housing, dense riveted steel. Top right: ice blue cooling defense platform, four armored legs, coolant tanks, luminous cyan reactor, heavy frost vents. Bottom left: sand ochre pursuit hover platform, broad angular wedge hull, two big turbine nacelles, orange slit sensor, heat shields. Bottom right: dark navy violet orbital salvage machine, four segmented mechanical limbs, collapsed space-station armor, luminous purple core and docking claws. All should have visible EMPTY modular turret sockets for runtime detachable cannon parts, compact complete body silhouettes approximately 1.5 times wider than tall. No freestanding weapons or other objects.",
+      "width": 1774,
+      "height": 887,
+      "sha256": "221206cd72e4981935e65e10c25850db962d20ac059537e7df63a74b1d283dd6",
+      "edits": [
+        "Background extracted with built-in image_gen, preserving the original four boss designs and cell positions."
+      ]
+    },
+    {
+      "file": "buildings.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: production 2D sprite atlas for CRIMSON FRONT. Reference images are ONLY a reference for painted industrial anime-mecha art direction, realistic layered worn metal, graphite/steel/crimson/cyan palette and crisp readable outlines; do not copy the reference composition. Orthographic three-quarter game rendering, upper-left light. No text, labels, numbers, borders, logos or watermark. Strict exact uniform 2 by 2 grid with four equally sized square cells. Exactly one complete centered isolated object in each cell, generous transparent padding, no overlap between cells. Genuine transparent alpha background everywhere outside objects. All objects entirely within their own cells. Top left a rusted military refinery bunker with cooling fans, pipes and amber slit windows. Top right an ice-blue cooling station building with cylindrical coolant tanks and cyan piping. Bottom left a sand-colored armored desert test outpost with solar panels and antenna. Bottom right a broken dark navy orbital cargo-port hangar with fractured hull panels and violet energy lights. TOP-DOWN ELEVATED orthographic near-square footprint, short squat buildings that fit into one square map cell. Detailed complete architecture, no terrain bases, no shadows extending beyond the object.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "281459722adda9bc6cf94074c4f99ac4be349c32900ec7567a87ebeb8405a959"
+    },
+    {
+      "file": "facilities.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: production 2D sprite atlas for CRIMSON FRONT. Reference images are ONLY a reference for painted industrial anime-mecha art direction, realistic layered worn metal, graphite/steel/crimson/cyan palette and crisp readable outlines; do not copy the reference composition. Orthographic three-quarter game rendering, upper-left light. No text, labels, numbers, borders, logos or watermark. Strict exact uniform 2 by 2 grid with four equally sized square cells. Exactly one complete centered isolated object in each cell, generous transparent padding, no overlap between cells. Genuine transparent alpha background everywhere outside objects. All objects entirely within their own cells. Top left an open teal field supply container filled with medical and repair canisters, white cross-shaped hardware detail without letters. Top right a sealed gold-trimmed futuristic weapons cache container with heavy locks and reinforced ribs. Bottom left a compact upright cyan coolant-reactor service tower with luminous energy core and pipes. Bottom right a mint-teal frontline communications relay beacon with antenna and small armored console base. Matching game perspective near-top-down three-quarter orthographic. Four clearly different complete objects, readable at 64 pixels.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cdcf4a368a51194a3e0ecd09d27164a24410c0fdc6d7efaee67dc0f0aa2a25a4"
+    },
+    {
+      "file": "props.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: production 2D sprite atlas for CRIMSON FRONT. Reference images are ONLY a reference for painted industrial anime-mecha art direction, realistic layered worn metal, graphite/steel/crimson/cyan palette and crisp readable outlines; do not copy the reference composition. Orthographic three-quarter game rendering, upper-left light. No text, labels, numbers, borders, logos or watermark. Strict exact uniform 2 by 2 grid with four equally sized square cells. Exactly one complete centered isolated object in each cell, generous transparent padding, no overlap between cells. Genuine transparent alpha background everywhere outside objects. All objects entirely within their own cells. Four map scenery clusters in elevated three-quarter view: top left one dead twisted tree with a few scorched metallic scrap pieces at its roots; top right a frost-coated pale blue conifer with icy shards at base; bottom left small dry desert scrub among rust-colored rocks and a bent broken pipe; bottom right a heap of derelict spacecraft wreckage with one broken antenna and violet circuit fragments. Each cluster self-contained isolated and low clutter, no terrain ground tile, no flat horizon.",
+      "width": 1261,
+      "height": 1247,
+      "sha256": "1bae621e4f7a8420192dd053e1d393e255a4e9a07d9d8e24fd2751d9d41e9dd5"
+    },
+    {
+      "file": "terrain.png",
+      "cols": 4,
+      "rows": 4,
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. Asset type: production TOP-DOWN 4 by 4 terrain tile atlas for a 2D military mecha game. Exact uniform 4 columns by 4 rows filling the entire square canvas. Every cell is an opaque square terrain tile, directly overhead orthographic, flat ground only. No gutters, borders, labels, text, objects, buildings, foliage, perspective horizon or watermark. ROW 1 all rusty brown industrial cracked concrete and steel dust. ROW 2 all desaturated dark blue cold cooling-station ground with fine frost cracks. ROW 3 all muted brown sand and compacted desert grit. ROW 4 all dark navy orbital-port segmented metal deck. In EVERY row: COLUMN 1 plain terrain, COLUMN 2 matching terrain with one worn VERTICAL dark roadway down cell center, COLUMN 3 matching terrain with one worn HORIZONTAL dark roadway across cell center, COLUMN 4 matching terrain with a dark four-way CROSS intersection. Roadways end at tile edges, consistent one-third-tile road width. Restrained fine material detail at small game scale, medium dark values to keep units and colorful projectiles readable. Same palette and painted materials as the reference game's machinery. All tiles exact equal sizes and aligned grid.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1e0dc5b6e2cdb4a72ee85afd08b036b0f87679cbb7e90ca3194b44380cd4c158"
+    },
+    {
+      "file": "equipment.png",
+      "cols": 5,
+      "rows": 5,
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: production 2D sprite atlas for CRIMSON FRONT. Reference images are ONLY a reference for painted industrial anime-mecha art direction, realistic layered worn metal, graphite/steel/crimson/cyan palette and crisp readable outlines; do not copy the reference composition. Orthographic three-quarter game rendering, upper-left light. No text, labels, numbers, borders, logos or watermark. Asset: an EXACT 5 by 5 sprite grid of 25 distinct modular mecha equipment item icons, no cell frames, genuine transparent background. Each individual item completely inside its own equal square cell with wide transparent margins, centered, consistent side-three-quarter item perspective. All hand weapons horizontally point RIGHT and keep the grip around the left quarter. Crisp detailed illustrated metal item icons readable at 48px, not abstract symbols. EXACT item order left-to-right by row: Row 1: triple-barrel autocannon, twin-rail cyan railgun, purple plasma cannon, cyan shield-generating chest armor, thick graphite chest armor. Row 2: white green nano-repair chest armor, twin cyan hover jets, twin orange vector exhaust jets, paired heavy tank tread chassis, red glowing overclock reactor orb in metal casing. Row 3: cyan synchronization reactor, gold targeting computer core, finned icy cooling backpack, twin boost thruster backpack, green energy-battery backpack. Row 4: slim red continuous laser rifle, six-tube missile launcher, heavy brass tungsten railgun, white-blue pulse laser rifle, sand-colored swarm missile pod. Row 5: violet orbital reactor, long orange energy sword pointing RIGHT with hilt at left, powered armored fist pointing RIGHT, heavy gold mechanical warhammer with handle left and hammer head right, blue-gray riot shield with cyan strips. No hands, no people, no text, no duplicate items, all exactly 25 cells.",
+      "width": 1262,
+      "height": 1246,
+      "sha256": "2c53f1c1b08309b09893379962422763bd69256ebafa0aab520af40841e30ed6"
+    },
+    {
+      "file": "fx-kinetic.png",
+      "cols": 4,
+      "rows": 4,
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: usable VFX animation sprite sheet for a sci-fi mecha combat game. Strict exact uniform 4 columns by 4 rows on square transparent alpha canvas, no text, no frames, no separators. Each cell equal size, complete effect contained in central 70% of cell with ample fully transparent gap, no effect touches a neighboring cell. FOUR ANIMATION FRAMES per row, left-to-right chronological small onset, bright peak, spreading decay, dissipating tail. Row1: warm golden directional muzzle flash pointing RIGHT, rooted near cell center. Row2: radial bright orange metallic impact spark cluster centered exactly in each cell. Row3: radial orange-red explosive fireball with layered dark gray smoke, centered identically in all frames. Row4: a bright cyan-white energy sword sweeping crescent opening toward RIGHT, centered, progression of the same slash from windup to dissipating streak. Premium painted game VFX, bright luminous cores with transparent soft glow, wispy detailed edges, distinct silhouettes, no background smoke outside cells, no shadows, no gridlines.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1f5726cc549e5ca6b103db834565265c20212f9025ff26c424798df6008f592f",
+      "edits": [
+        "Milky background removed with built-in image_gen; effect cores and frame layout preserved."
+      ]
+    },
+    {
+      "file": "fx-energy.png",
+      "cols": 4,
+      "rows": 4,
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: production sci-fi VFX sprite atlas, strict uniform 4 columns by 4 rows filling square transparent alpha canvas. No text, labels, cell borders or gridlines. All individual effects fully contained in the central 70 percent of each equal-size cell with wide transparent padding. Each row is 4 related frames/variants left to right, fixed identical centered anchor and scale. ROW1 small horizontal gold-white tracer bullet pointing RIGHT with subtle orange trail behind at LEFT. ROW2 long horizontal cyan-white electromagnetic beam segment pointing RIGHT, beam centered vertically, narrow white core and blue electric corona, four pulsing frames, transparent padding all sides. ROW3 luminous violet plasma orb centered with small violet wake at LEFT, four pulsing phases. ROW4 one small detailed metallic silver missile pointing RIGHT with orange engine exhaust at LEFT, same missile position in every frame, exhaust flickers across the four columns. Crisply rendered effects, realistic soft alpha gradients and sparks, high contrast against dark terrain. No backdrop, no objects beyond these effects.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b496836c75f8bb73405b4b267d997c5f3b1675f9eee4fbcec3dccabfa6904b84"
+    },
+    {
+      "file": "hangar.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. Asset type: production 2D sprite atlas for CRIMSON FRONT. Reference images are ONLY a reference for painted industrial anime-mecha art direction, realistic layered worn metal, graphite/steel/crimson/cyan palette and crisp readable outlines; do not copy the reference composition. Orthographic three-quarter game rendering, upper-left light. No text, labels, numbers, borders, logos or watermark. Asset type: wide landscape sci-fi hangar backdrop, a complete painted environment, NOT a sprite atlas. Huge dark military mecha maintenance bay inside an airborne carrier, seen from slightly elevated frontal perspective, broad clean metal service floor in lower half, overhead rails and gantry cranes, service machinery along sides, cyan strips and restrained red hazard accents. A central recessed display platform remains empty for a separate mech sprite. Deep graphite/steel blue industrial palette, low contrast behind interface text, subtle depth, premium anime game environment illustration matching references. No mechs, no ships, no people, no text, no logos, no opaque UI boxes, no watermark.",
+      "width": 1774,
+      "height": 887,
+      "sha256": "f3dbf65f13975ad7d6b69faabd5e836c2e82aa316c3f93a0fdfe1efa0afa6a50"
+    },
+    {
+      "file": "fx-shield.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: ONE isolated production game VFX sprite on a genuinely fully transparent alpha background. Subject: one cyan spherical energy barrier bubble made of fine luminous hexagonal outlines, transparent empty interior, brighter rim, no solid background fill. Single centered complete effect, square composition, all visible light contained inside the central 65 percent of the canvas with broad completely empty transparent margins. Crisp luminous colored strokes and sparks, white highlights confined only to the thin luminous core. Keep glow tightly localized to the colored strokes. NO large soft clouds, NO fog, NO milky haze, NO colored or white background, NO ground, NO cast shadow, NO checkerboard pattern, NO words, NO grid, NO text, NO watermark. This image will be composited over dark textured game terrain: every pixel outside the compact effect must be fully transparent. Premium clean sci-fi game ability effect.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1d479a3e27a41c0869656d8a5e19e0d98145fc66282de5d8ec3661b5186e16cc"
+    },
+    {
+      "file": "fx-repair.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: ONE isolated production game VFX sprite on a genuinely fully transparent alpha background. Subject: one small mint green healing nanite aura, a thin elliptical luminous ring with six tiny upward sparkling green particles and a few narrow upward streaks, transparent empty center. Single centered complete effect, square composition, all visible light contained inside the central 65 percent of the canvas with broad completely empty transparent margins. Crisp luminous colored strokes and sparks, white highlights confined only to the thin luminous core. Keep glow tightly localized to the colored strokes. NO large soft clouds, NO fog, NO milky haze, NO colored or white background, NO ground, NO cast shadow, NO checkerboard pattern, NO words, NO grid, NO text, NO watermark. This image will be composited over dark textured game terrain: every pixel outside the compact effect must be fully transparent. Premium clean sci-fi game ability effect.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bf7d3eb7bc6ddf42b7bd1fc6296ef31e4bcbae30d7c60743897f79edc8f5b376"
+    },
+    {
+      "file": "fx-scarlet.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: ONE isolated production game VFX sprite on a genuinely fully transparent alpha background. Subject: one crimson-orange radial cooling energy flare emitting exactly three sharp bright energy lances toward image RIGHT in a narrow fan, transparent space between the lances. Single centered complete effect, square composition, all visible light contained inside the central 65 percent of the canvas with broad completely empty transparent margins. Crisp luminous colored strokes and sparks, white highlights confined only to the thin luminous core. Keep glow tightly localized to the colored strokes. NO large soft clouds, NO fog, NO milky haze, NO colored or white background, NO ground, NO cast shadow, NO checkerboard pattern, NO words, NO grid, NO text, NO watermark. This image will be composited over dark textured game terrain: every pixel outside the compact effect must be fully transparent. Premium clean sci-fi game ability effect.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e6022696b675aa1eedbe804c34ff5fb9765d0fc91a6704fb9588421cbd7651a5"
+    },
+    {
+      "file": "fx-overcharge.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: ONE isolated production game VFX sprite on a genuinely fully transparent alpha background. Subject: one violet electromagnetic shock ring made of thin jagged bright violet electric arcs around an empty transparent center, a compact precision overload burst. Single centered complete effect, square composition, all visible light contained inside the central 65 percent of the canvas with broad completely empty transparent margins. Crisp luminous colored strokes and sparks, white highlights confined only to the thin luminous core. Keep glow tightly localized to the colored strokes. NO large soft clouds, NO fog, NO milky haze, NO colored or white background, NO ground, NO cast shadow, NO checkerboard pattern, NO words, NO grid, NO text, NO watermark. This image will be composited over dark textured game terrain: every pixel outside the compact effect must be fully transparent. Premium clean sci-fi game ability effect.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "abf291c9a9daf2a3a357491638691c5357984a605524853bb07cf8cb62a3e96c"
+    }
+  ],
+  "discarded_variants": [
+    {
+      "file": "fx-support.png",
+      "reason": "Milky opaque backdrop; replaced by four isolated transparent effect sprites."
+    }
+  ],
+  "runtime_import": {
+    "max_texture_dimension": 1024,
+    "lossy_quality": 0.85,
+    "mipmaps": true
+  }
+}

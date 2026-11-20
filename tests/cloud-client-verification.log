@@ -1,0 +1,29 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: tests never write player save
+PASS: cloud endpoint accepts HTTP services and rejects filesystem or credential URLs
+PASS: real native HTTP registration opens an empty isolated cloud account
+PASS: cloud switch fixture uses a completed real three-trial certification
+PASS: first cloud upload binds the actual game snapshot and optimistic revision
+PASS: cloud round trip preserves nonempty personal tasks, trust, conversations, equipment presets and saved tactics
+PASS: migration preserves accrued local balance and anchors future time to the server
+PASS: cloud save preserves real game changes while ignoring forged client clock and tier state
+PASS: stale native device snapshots receive a conflict without changing local or remote money
+PASS: enabling a cloud salvage scheme immediately commits its source switch to the backend
+PASS: switching back retains the server-accounted interval of the prior certified source
+PASS: actual native cloud claim consumes an idempotent request and applies the canonical paid snapshot
+PASS: retrying the same committed native request cannot pay again
+PASS: interrupted claim fixture commits only on the backend before client recovery
+PASS: an expired session keeps the unconfirmed receipt ID and pauses conflicting actions
+PASS: an unconfirmed claim allows reconnecting to its original service while blocking a different service
+PASS: an unconfirmed claim cannot be reassigned to a different cloud account
+PASS: the actual login controls restore the original expired session without replacing its pending request
+PASS: reauthentication recovers the committed receipt and its exact wallet without a second payout
+PASS: the recovered request remains idempotent after an expired-session login
+PASS: cloud restore keeps a local progress backup and never writes credentials into the game snapshot
+PASS: persistent cloud session stores the token without the account password
+PASS: carrier cloud controls show a valid synchronized native session
+PASS: an unconfirmed claim pauses combat and keeps recovery controls available
+PASS: logged-out cloud schemes cannot switch locally while the server keeps the old scheme
+PASS: a bound cloud save cannot fall back to local payouts after logout
+CHECKS: 26 passed, 0 failed

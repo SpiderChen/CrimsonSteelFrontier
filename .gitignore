@@ -1,0 +1,15 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.local/
+tools/Godot.app/
+tools/editor_data/
+tools/web_templates/
+tools/browser/node_modules/
+build/
+publish/.git/
+tools/downloads/
+tools/android/
+
+__pycache__/
+tests/*.sqlite3*

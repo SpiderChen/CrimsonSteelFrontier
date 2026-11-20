@@ -1,0 +1,5 @@
+PILOT BROWSER PASS: first conversation grants trust once, replay does not farm trust, higher conversations stay locked
+PILOT BROWSER PASS: pilot 0 dossier, three task rewards/stories, trust conversation, cockpit badge and real training skill render
+PILOT BROWSER PASS: pilot 1 dossier, three task rewards/stories, trust conversation, cockpit badge and real training skill render
+PILOT BROWSER PASS: pilot 2 dossier, three task rewards/stories, trust conversation, cockpit badge and real training skill render
+PILOT BROWSER PASS: completed rewards, trust and read conversations survive IndexedDB reload without duplicate rewards; no browser errors

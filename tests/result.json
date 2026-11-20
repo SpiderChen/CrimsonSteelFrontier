@@ -1,0 +1,107 @@
+{
+  "engine": "Godot 4.7.2",
+  "viewport": [
+    720,
+    1280
+  ],
+  "native_checks": {
+    "passed": 111,
+    "failed": 0,
+    "log": "tests/verification.log"
+  },
+  "browser_checks": {
+    "runtime_errors": 0,
+    "viewports": [
+      [
+        390,
+        844
+      ],
+      [
+        360,
+        640
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "coverage": [
+      "touch navigation",
+      "upgrade",
+      "recruit",
+      "leader selection",
+      "IndexedDB save",
+      "reload persistence",
+      "global mute persistence",
+      "map tap movement",
+      "camera pan",
+      "joystick hold",
+      "pinch zoom",
+      "world position restore from live model",
+      "full-screen floating joystick",
+      "left and right thumb origins",
+      "actual moving-fire frames",
+      "release stops",
+      "two-finger camera",
+      "enemy detection",
+      "real pursuit distance",
+      "independent enemy fire"
+    ]
+  },
+  "art": "assets/pilots/pilots.png",
+  "standard_web_export": "build/web/index.html",
+  "compressed_web_export": "publish/dist/index.html",
+  "project": "project.godot",
+  "free_assets": {
+    "count": 21,
+    "packs": 4,
+    "license": "CC0-1.0",
+    "original_bytes": 271205,
+    "manifest": "assets/free/manifest.json"
+  },
+  "world": {
+    "size": [
+      65536,
+      65536
+    ],
+    "chunk_size": 512,
+    "max_cached_chunks": 128,
+    "terrain": "deterministic",
+    "biomes": 3,
+    "tests": [
+      "cross-chunk pathfinding",
+      "obstacle avoidance",
+      "collection once",
+      "outpost repair",
+      "spatial encounters",
+      "victory clearing",
+      "retreat",
+      "patrol",
+      "world save"
+    ]
+  },
+  "one_hand": {
+    "joystick": "full-screen floating",
+    "thumb_origins": [
+      "left",
+      "right",
+      "HUD label area"
+    ],
+    "deadzone": 9,
+    "radius": 66,
+    "release_stops": true,
+    "moving_fire": true,
+    "auto_skill": true,
+    "release_fallback": true
+  },
+  "enemy_ai": {
+    "detect_range": 330,
+    "speed": 176,
+    "weapon_range": 230,
+    "home_leash": 900,
+    "lose_range": 570,
+    "independent_attacks": true,
+    "obstacle_pathfinding": true,
+    "live_positions_saved": true
+  }
+}

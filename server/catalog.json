@@ -1,0 +1,453 @@
+{
+  "affixes": {
+    "armor": {
+      "max": 4,
+      "min": 1,
+      "name": "减伤",
+      "unit": "%"
+    },
+    "attack": {
+      "max": 8,
+      "min": 3,
+      "name": "火力",
+      "unit": ""
+    },
+    "crit": {
+      "max": 5,
+      "min": 2,
+      "name": "暴击率",
+      "unit": "%"
+    },
+    "energy": {
+      "max": 2,
+      "min": 1,
+      "name": "每秒充能",
+      "unit": ""
+    },
+    "haste": {
+      "max": 5,
+      "min": 2,
+      "name": "攻速",
+      "unit": "%"
+    },
+    "speed": {
+      "max": 6,
+      "min": 2,
+      "name": "移速",
+      "unit": "%"
+    }
+  },
+  "blueprints": [
+    {
+      "desc": "每轮连续发射 3 发，每发造成 45% 攻击伤害。",
+      "name": "蜂群连射炮",
+      "slot": 0,
+      "title": "三连击",
+      "trait": "burst"
+    },
+    {
+      "desc": "攻击间隔 ×1.5，伤害 ×2，射程增至 390。",
+      "name": "苍穹轨道炮",
+      "slot": 0,
+      "title": "轨道贯穿",
+      "trait": "rail"
+    },
+    {
+      "desc": "主目标伤害 ×1.1，并对其周围 150 范围敌军造成 50% 溅射。",
+      "name": "熔星等离子炮",
+      "slot": 0,
+      "title": "等离子爆破",
+      "trait": "plasma"
+    },
+    {
+      "desc": "每 6 秒格挡下一次伤害的 60%。",
+      "name": "棱镜反应装甲",
+      "slot": 1,
+      "title": "反应屏障",
+      "trait": "barrier"
+    },
+    {
+      "desc": "额外减伤 18%，移动速度降低 8%。",
+      "name": "重型复合装甲",
+      "slot": 1,
+      "title": "坚壁",
+      "trait": "fortress"
+    },
+    {
+      "desc": "非修复状态每秒恢复 1.2% 装甲。",
+      "name": "纳米修复装甲",
+      "slot": 1,
+      "title": "自修复",
+      "trait": "nanite"
+    },
+    {
+      "desc": "持续悬浮移动，速度提高 16%，留下离子光环。",
+      "name": "离子悬浮引擎",
+      "slot": 2,
+      "title": "悬浮推进",
+      "trait": "hover"
+    },
+    {
+      "desc": "移动时每 3 秒触发 0.6 秒两倍速冲刺，留下喷焰。",
+      "name": "脉冲矢量喷口",
+      "slot": 2,
+      "title": "脉冲冲刺",
+      "trait": "dash"
+    },
+    {
+      "desc": "速度降低 12%，额外减伤 15%，底盘替换为履带。",
+      "name": "重装履带底盘",
+      "slot": 2,
+      "title": "履带行进",
+      "trait": "treads"
+    },
+    {
+      "desc": "普攻间隔缩短 18%，弹道变为赤焰。",
+      "name": "赤焰超频核心",
+      "slot": 3,
+      "title": "超频",
+      "trait": "overdrive"
+    },
+    {
+      "desc": "技能每秒额外充能 3 点，弹道变为冰蓝。",
+      "name": "极光同步核心",
+      "slot": 3,
+      "title": "能量回流",
+      "trait": "charge"
+    },
+    {
+      "desc": "暴击率额外提高 15%，暴击造成双倍伤害。",
+      "name": "鹰眼演算核心",
+      "slot": 3,
+      "title": "弱点演算",
+      "trait": "precision"
+    },
+    {
+      "desc": "每秒额外散热 18 点。",
+      "name": "霜翼散热背包",
+      "slot": 5,
+      "title": "散热翼",
+      "trait": "cooler"
+    },
+    {
+      "desc": "移速额外提高 12%，需要较高供能，散热较低。",
+      "name": "疾风推进背包",
+      "slot": 5,
+      "title": "矢量推进",
+      "trait": "boost_pack"
+    },
+    {
+      "desc": "额外提供 50 点供能，适合双重型武器。",
+      "name": "远航储能背包",
+      "slot": 5,
+      "title": "辅助供能",
+      "trait": "battery"
+    },
+    {
+      "desc": "持续 0.75 秒照射，每 0.1 秒按实际射线判定，需维持射界。",
+      "name": "白炽粒子束",
+      "slot": 0,
+      "title": "持续照射",
+      "trait": "laser"
+    },
+    {
+      "desc": "导弹转向追踪目标，命中引爆；飞行与爆炸按实际位置结算。",
+      "name": "鸢尾追踪导弹",
+      "slot": 0,
+      "title": "锁定制导",
+      "trait": "missile"
+    },
+    {
+      "damage_factor": 1.12,
+      "desc": "命名蓝图：轨道炮单发伤害提高12%，间隔延长20%；产热与重量更高。出厂机制为贯穿，占用原有机制位。",
+      "interval_factor": 1.2,
+      "name": "掘墓者·钨芯轨道炮",
+      "signature": "pierce",
+      "slot": 0,
+      "title": "钨芯重击",
+      "trait": "rail"
+    },
+    {
+      "damage_factor": 1.1,
+      "desc": "命名蓝图：伤害提高10%，间隔延长15%；供能和产热更高。出厂机制为脉冲，占用原有机制位。",
+      "interval_factor": 1.15,
+      "name": "白噪·脉冲激光器",
+      "signature": "pulse",
+      "slot": 0,
+      "title": "冷站聚焦",
+      "trait": "laser"
+    },
+    {
+      "damage_factor": 1.05,
+      "desc": "命名蓝图：伤害提高5%，间隔延长10%；产热更高。出厂机制为蜂群，占用原有机制位。",
+      "interval_factor": 1.1,
+      "name": "沙海·蜂群弹舱",
+      "signature": "swarm",
+      "slot": 0,
+      "title": "试验弹舱",
+      "trait": "missile"
+    },
+    {
+      "desc": "命名蓝图：额外供能20，重量更高；保留弱点演算。出厂机制为电离，占用原有机制位。",
+      "name": "轨道·电离反应炉",
+      "signature": "ion",
+      "slot": 3,
+      "supply_bonus": 20,
+      "title": "轨道供能",
+      "trait": "precision"
+    },
+    {
+      "desc": "射程120，基础间隔1秒；前摇0.18秒后挥出120度扇形斩击，造成160%热能伤害，最多命中4个目标。同次挥击不重复命中。",
+      "name": "焰刃能量剑",
+      "slot": 0,
+      "title": "近战横斩",
+      "trait": "blade"
+    },
+    {
+      "desc": "射程84，基础间隔0.95秒；依次在0.10、0.24、0.40秒打出三拳，每拳造成62%动能伤害。每拳独立检查距离、朝向与障碍，离开拳路可躲开后续连击。",
+      "name": "破阵动力拳套",
+      "slot": 0,
+      "title": "三段格斗",
+      "trait": "gauntlet"
+    },
+    {
+      "desc": "射程108，基础间隔1.6秒；前摇0.36秒后打出100度重击，造成280%动能伤害，最多命中3个目标。较慢的出手需要保持贴近。",
+      "name": "震岳重型战锤",
+      "slot": 0,
+      "title": "蓄力重击",
+      "trait": "hammer"
+    },
+    {
+      "desc": "占用一只手，自动面向交战目标。正面120度内的直射攻击可格挡60%伤害并消耗等量格挡耐久；背后攻击和地面范围攻击不能格挡。基础耐久60，稀有/史诗为80/100；耗尽后破防2秒，停受击2秒后每秒恢复12耐久。另一只手可搭配剑、拳套或枪械。",
+      "name": "堡垒防暴盾",
+      "slot": 0,
+      "title": "正面格挡",
+      "trait": "hand_shield"
+    }
+  ],
+  "inventory_limit": 120,
+  "mech_affixes": {
+    "attack": {
+      "max": 7,
+      "min": 3,
+      "name": "机体火力",
+      "unit": ""
+    },
+    "capacity": {
+      "max": 15,
+      "min": 8,
+      "name": "载重上限",
+      "unit": ""
+    },
+    "cooling": {
+      "max": 4,
+      "min": 2,
+      "name": "散热",
+      "unit": "/秒"
+    },
+    "supply": {
+      "max": 12,
+      "min": 6,
+      "name": "供能上限",
+      "unit": ""
+    }
+  },
+  "mech_count": 6,
+  "mechanism_pools": [
+    [
+      "pierce",
+      "bounce",
+      "split",
+      "ion",
+      "hot_drive"
+    ],
+    [
+      "pierce",
+      "bounce",
+      "hot_drive"
+    ],
+    [
+      "pierce",
+      "incendiary",
+      "ion",
+      "hot_drive"
+    ],
+    [
+      "counter"
+    ],
+    [
+      "counter"
+    ],
+    [
+      "counter"
+    ],
+    [],
+    [],
+    [],
+    [
+      "ion",
+      "vent"
+    ],
+    [
+      "ion",
+      "vent"
+    ],
+    [
+      "ion",
+      "vent"
+    ],
+    [
+      "vent"
+    ],
+    [
+      "vent"
+    ],
+    [
+      "vent"
+    ],
+    [
+      "pulse",
+      "sweep",
+      "ion",
+      "hot_drive"
+    ],
+    [
+      "swarm",
+      "proximity",
+      "incendiary",
+      "ion",
+      "hot_drive"
+    ],
+    [
+      "pierce",
+      "bounce",
+      "hot_drive"
+    ],
+    [
+      "pulse",
+      "sweep",
+      "ion",
+      "hot_drive"
+    ],
+    [
+      "swarm",
+      "proximity",
+      "incendiary",
+      "ion",
+      "hot_drive"
+    ],
+    [
+      "ion",
+      "vent"
+    ],
+    [
+      "ion",
+      "hot_drive"
+    ],
+    [
+      "ion",
+      "hot_drive"
+    ],
+    [
+      "ion",
+      "hot_drive"
+    ],
+    [
+      "counter"
+    ]
+  ],
+  "pilot_count": 6,
+  "regions": [
+    {
+      "blueprint": 17,
+      "boss": "掘墓者·矿战平台",
+      "color": "624432",
+      "condition": "标准战区",
+      "cooling": 1.0,
+      "name": "赤锈军工区",
+      "pool": [
+        0,
+        1,
+        4,
+        8,
+        22,
+        23,
+        24
+      ],
+      "roles": [
+        "guard",
+        "cannon"
+      ],
+      "speed": 1.0,
+      "theme": "生产线、重装守卫与装甲回收场"
+    },
+    {
+      "blueprint": 18,
+      "boss": "白噪·冷却卫士",
+      "color": "254454",
+      "condition": "冷却管网：散热+20%，移速-5%",
+      "cooling": 1.2,
+      "name": "白噪冷却站",
+      "pool": [
+        15,
+        3,
+        5,
+        10,
+        12,
+        21
+      ],
+      "roles": [
+        "cannon",
+        "rusher"
+      ],
+      "speed": 0.95,
+      "theme": "冷却管线、能量设施与试验反应炉"
+    },
+    {
+      "blueprint": 19,
+      "boss": "沙海·追猎平台",
+      "color": "655038",
+      "condition": "高温疾风：散热-10%，移速+10%",
+      "cooling": 0.9,
+      "name": "沙海试验场",
+      "pool": [
+        16,
+        6,
+        7,
+        13,
+        22
+      ],
+      "roles": [
+        "rusher",
+        "guard"
+      ],
+      "speed": 1.1,
+      "theme": "开阔沙地、移动平台与推进试验区"
+    },
+    {
+      "blueprint": 20,
+      "boss": "轨道·回收主机",
+      "color": "283246",
+      "condition": "装甲哨戒：注意敌军伤害抗性",
+      "cooling": 1.0,
+      "name": "坠落轨道港",
+      "pool": [
+        1,
+        2,
+        9,
+        10,
+        14,
+        21,
+        23
+      ],
+      "roles": [
+        "cannon",
+        "rusher"
+      ],
+      "speed": 1.0,
+      "theme": "舰体残骸、无人哨戒与电能回收区"
+    }
+  ],
+  "research_target": 6,
+  "version": 1
+}

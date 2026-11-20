@@ -1,0 +1,47 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: tests never write player save
+PASS: idle tiers integrate 24 hours without exceeding the seventy-two-hour limit
+PASS: idle tiers integrate 25 hours without exceeding the seventy-two-hour limit
+PASS: idle tiers integrate 48 hours without exceeding the seventy-two-hour limit
+PASS: idle tiers integrate 72 hours without exceeding the seventy-two-hour limit
+PASS: idle tiers integrate 100 hours without exceeding the seventy-two-hour limit
+PASS: duplicate or backward clock observations cannot credit the same interval again
+PASS: claiming cannot reset the high-water timestamp and replay a previous interval
+PASS: an uncontrolled region cannot be certified or simulated as a first boss kill
+PASS: certification is an instance of the actual combat controller with the same weapon and thermal configuration
+SALVAGE CERT success=true reason=连续三次自动清剿通过 seconds=16.75 hp=81.34 trials=3
+PASS: three real automatic cleanups measure actual hits, damage, elapsed time and survival
+PASS: the detached simulator uses private RNG and cannot perturb the live combat or loot stream
+PASS: simulated movement, enemy rewards, damage and deaths cannot modify the live player, world, inventory or progression
+PASS: automatic paths keep every cell-center waypoint inside the playable arena bounds
+SALVAGE SOLO success=true reason=连续三次自动清剿通过 details={}
+PASS: a single legal ranged weapon completes all three cleanups without getting trapped at arena edges
+SALVAGE REGION 1 success=true seconds=11.15 hp=65.22
+PASS: regional certification 1 completes its actual enemy profiles and environmental conditions
+SALVAGE REGION 2 success=true seconds=12.65 hp=74.24
+PASS: regional certification 2 completes its actual enemy profiles and environmental conditions
+SALVAGE REGION 3 success=true seconds=16.65 hp=60.38
+PASS: regional certification 3 completes its actual enemy profiles and environmental conditions
+PASS: an actual tactical withdrawal fails certification instead of issuing a favorable snapshot
+PASS: cancelling and disposing a detached cleanup has no real resource side effects
+PASS: switching schemes settles prior time at its original certified rate and keeps separate source accounts
+PASS: changing schemes cannot restart the first twenty-four full-rate hours
+PASS: arbitrary scheme changes still share the seventy-two-hour global capacity
+PASS: fractional equipment and research survive frequent claims and mature exactly once
+PASS: certificates, active scheme, fractional carries and receipt sequence survive JSON roundtrip
+PASS: controlled-region certification starts from the actual current build
+PASS: completed certification creates one persistent usable certificate
+PASS: changing live equipment while certification runs cannot change its immutable snapshot
+PASS: a successful controlled-region certificate can be enabled independently of live equipment
+PASS: claim atomically transfers the calculated whole currency rewards
+PASS: offline equipment is real compatible regional loot, retained in overflow alongside usable research materials and samples
+PASS: offline gear uses the same blueprint, affix and mechanism compatibility rules as active play
+PASS: a second claim cannot duplicate currency, gear or research
+PASS: automatic common dismantling also works in overflow and always preserves rare equipment
+PASS: offline research materials can really complete a chosen mechanism's research
+PASS: idle ledger, certificate list/detail/progress, source history and research-material controls build
+PASS: enabled automatic dismantling accounts for every rolled offline component once
+PASS: automatic claim dismantling preserves every rare item and awards the exact common salvage materials
+PASS: an actual disk reload preserves the certified scheme and cannot replay a completed reward receipt
+CHECKS: 39 passed, 0 failed
